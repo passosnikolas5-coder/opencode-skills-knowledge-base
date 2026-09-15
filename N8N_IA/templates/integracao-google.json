@@ -1,0 +1,117 @@
+{
+  "name": "Template - Integração Google Sheets",
+  "nodes": [
+    {
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "position": [250, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "sheets"
+      }
+    },
+    {
+      "name": "Validar",
+      "type": "n8n-nodes-base.if",
+      "position": [450, 300],
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{$json.body.data}}",
+              "operation": "isNotEmpty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Adicionar Linha",
+      "type": "n8n-nodes-base.googleSheets",
+      "position": [650, 300],
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "mode": "url",
+          "value": "={{$env.GOOGLE_SHEET_URL}}"
+        },
+        "sheetName": {
+          "mode": "name",
+          "value": "Dados"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "A": "={{$now.toISO()}}",
+            "B": "={{$json.body.nome}}",
+            "C": "={{$json.body.email}}",
+            "D": "={{$json.body.mensagem}}"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sucesso",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "position": [850, 300],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{{ \"success\": true, \"message\": \"Dados salvos com sucesso\" }}}"
+      }
+    },
+    {
+      "name": "Erro",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "position": [650, 450],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{{ \"success\": false, \"message\": \"Dados inválidos\" }}}",
+        "options": {
+          "responseCode": 400
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Validar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validar": {
+      "main": [
+        [
+          {
+            "node": "Adicionar Linha",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Adicionar Linha": {
+      "main": [
+        [
+          {
+            "node": "Sucesso",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

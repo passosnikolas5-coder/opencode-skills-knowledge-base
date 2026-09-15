@@ -1,0 +1,95 @@
+{
+  "name": "Template - Agente IA com Memória",
+  "nodes": [
+    {
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "position": [250, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "chat",
+        "responseMode": "responseNode"
+      }
+    },
+    {
+      "name": "Memory",
+      "type": "n8n-nodes-base.memoryBufferWindow",
+      "position": [450, 300],
+      "parameters": {
+        "contextWindow": 10,
+        "memoryKey": "chat_history",
+        "sessionKey": "={{$json.body.sessionId || 'default'}}"
+      }
+    },
+    {
+      "name": "OpenAI",
+      "type": "n8n-nodes-base.openAi",
+      "position": [650, 300],
+      "parameters": {
+        "resource": "chat",
+        "operation": "complete",
+        "model": "gpt-4",
+        "messages": {
+          "values": [
+            {
+              "content": "Você é um assistente inteligente e prestativo.\n\n## Regras:\n- Responda de forma clara e objetiva\n- Seja educado e profissional\n- Se não souber a resposta, diga honestamente\n- Mantenha o contexto da conversa",
+              "role": "system"
+            },
+            {
+              "content": "={{$json.body.message}}",
+              "role": "user"
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.7,
+          "maxTokens": 1000
+        }
+      }
+    },
+    {
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "position": [850, 300],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{{ \"response\": \"{{ $json.message.content }}\", \"sessionId\": \"{{ $json.body.sessionId }}\" }}}"
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Memory",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Memory": {
+      "main": [
+        [
+          {
+            "node": "OpenAI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI": {
+      "main": [
+        [
+          {
+            "node": "Respond",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
