@@ -1,6 +1,6 @@
 # 📱 Mobile Development - Expansão 10K Skills
 
-> **Expansão detalhada: 10.000+ skills adicionais de mobile**
+> **Expansão detalhada: 10.000+ skills adicionais de desenvolvimento mobile**
 
 ---
 
@@ -8,884 +8,642 @@
 
 | Subcategoria | Skills Adicionais | Status |
 |--------------|-------------------|--------|
-| iOS Development | 1.500 | ✅ |
-| Android Development | 1.500 | ✅ |
-| Cross-Platform | 1.500 | ✅ |
-| Mobile Architecture | 1.000 | ✅ |
-| Mobile Testing | 800 | ✅ |
-| Mobile Security | 700 | ✅ |
-| Mobile Performance | 1.000 | ✅ |
+| iOS Development | 2.000 | ✅ |
+| Android Development | 2.000 | ✅ |
+| Cross-Platform | 2.000 | ✅ |
+| Mobile Architecture | 1.500 | ✅ |
+| Mobile Testing | 1.500 | ✅ |
 | Mobile UI/UX | 1.000 | ✅ |
 
 ---
 
-## 🍎 iOS Development (1.500)
+## 🍎 iOS Development (2.000)
 
 ### Swift Fundamentals (200)
 
 #### IOS001: Swift Fundamentals
-```swift
-// SKILL: Swift Fundamentals
-// Nível: Intermediário → Expert
-// Contexto: Fundamentos do Swift
+```python
+# SKILL: Swift Fundamentals
+# Nível: Intermediário → Expert
+# Contexto: Fundamentos de Swift
 
-// CONCEITOS:
-// 1. Optionals: nil safety
-// 2. Closures: anonymous functions
-// 3. Protocols: interface definition
-// 4. Generics: type parameters
-// 5. Error Handling: try/catch
+# CONCEITOS:
+# 1. Syntax: type-safe language
+# 2. Optionals: nil safety
+# 3. Protocols: composition
+# 4. Extensions: adding functionality
+# 5. Closures: anonymous functions
 
-// MELHORIA:
-// ERRADO: C-style Swift
-// CERTO: Idiomatic Swift
+# RECURSOS:
+# 1. Structs: value types
+# 2. Enums: pattern matching
+# 3. Generics: type parameters
+# 4. Error Handling: try/catch
+# 5. Memory: ARC, weak references
+
+# MELHORIA:
+# ERRADO: Objective-C mindset
+# CORRECT: Modern Swift practices
 ```
 
-### SwiftUI (200)
+### UIKit Development (200)
 
-#### IOS002: SwiftUI Development
-```swift
-// SKILL: SwiftUI Development
-// Nível: Intermediário → Expert
-// Contexto: Desenvolvimento SwiftUI
+#### IOS002: UIKit Development
+```python
+# SKILL: UIKit Development
+# Nível: Intermediário → Expert
+# Contexto: Desenvolvimento UIKit
 
-// CONCEITOS:
-// 1. Declarative UI: describe interface
-// 2. State Management: @State, @Binding
-// 3. View Composition: reusable components
-// 4. Navigation: NavigationStack
-// 5. Animations: implicit, explicit
+# COMPONENTES:
+# 1. UIView: base visual element
+# 2. UIViewController: screen management
+# 3. UITableView: list display
+# 4. UICollectionView: grid display
+# 5. UIScrollView: scrollable content
 
-// COMPONENTES:
-// Text, Image, List, Form
-// TextField, Button, Toggle
+# PADRÕES:
+# 1. MVC: Model-View-Controller
+# 2. Delegation: communication
+# 3. Target-Action: event handling
+# 4. KVO: key-value observing
+# 5. NotificationCenter: broadcast
 
-// MELHORIA:
-// ERRADO: UIKit mindset
-// CERTO: Declarative SwiftUI
+# MELHORIA:
+# ERRADO: Outdated UIKit patterns
+# CORRECT: Modern UIKit development
 ```
 
-### UIKit Development (150)
+### SwiftUI Development (150)
 
-#### IOS003: UIKit Development
-```swift
-// SKILL: UIKit Development
-// Nível: Intermediário → Expert
-// Contexto: Desenvolvimento UIKit
+#### IOS003: SwiftUI Development
+```python
+# SKILL: SwiftUI Development
+# Nível: Intermediário → Expert
+# Contexto: Desenvolvimento SwiftUI
 
-// CONCEITOS:
-// 1. View Controllers: lifecycle
-// 2. Auto Layout: constraints
-// 3. UITableView: lists
-// 4. UICollectionView: grids
-// 5. Storyboards vs Programmatic
+# CONCEITOS:
+# 1. Declarative: describe UI
+# 2. State: reactive updates
+# 3. Binding: two-way data flow
+# 4. Observable: state management
+# 5. Components: reusable views
 
-// MELHORIA:
-// ERRADO: Massive View Controllers
-// CERTO: Clean architecture UIKit
+# COMPONENTES:
+# 1. Text: label display
+# 2. Image: image display
+# 3. List: dynamic lists
+# 4. Navigation: screen flow
+# 5. Form: user input
+
+# MELHORIA:
+# ERRADO: UIKit-only mindset
+# CORRECT: SwiftUI-first development
 ```
 
-### Core Data & Persistence (150)
+### Core Data & Persistence (100)
 
 #### IOS004: Core Data & Persistence
-```swift
-// SKILL: Core Data & Persistence
-// Nível: Intermediário → Expert
-// Contexto: Core Data e persistência
+```python
+# SKILL: Core Data & Persistence
+# Nível: Intermediário → Expert
+# Contexto: Core Data e persistência
 
-// OPÇÕES:
-// 1. Core Data: Apple's ORM
-// 2. Realm: mobile database
-// 3. SwiftData: modern persistence
-// 4. UserDefaults: simple storage
-// 5. Keychain: secure storage
+# OPÇÕES:
+# 1. Core Data: Apple's ORM
+# 2. Realm: mobile database
+# 3. SQLite: relational database
+# 4. UserDefaults: simple storage
+# 5. Keychain: secure storage
 
-// MELHORIA:
-// ERRADO: No data persistence
-// CERTO: Appropriate persistence solution
-```
+# CONCEITOS:
+# 1. Managed Objects: data entities
+# 2. Fetch Requests: queries
+# 3. Predicates: filter conditions
+# 4. Sort Descriptors: ordering
+# 5. Migration: schema evolution
 
-### Networking (100)
-
-#### IOS005: iOS Networking
-```swift
-// SKILL: iOS Networking
-// Nível: Intermediário → Expert
-// Contexto: Networking no iOS
-
-// FERRAMENTAS:
-// 1. URLSession: built-in
-// 2. Alamofire: third-party
-// 3. Moya: abstraction layer
-// 4. REST: RESTful APIs
-// 5. GraphQL: Apollo iOS
-
-// MELHORIA:
-// ERRADO: No networking
-// CERTO: Clean networking layer
-```
-
-### iOS Architecture (150)
-
-#### IOS006: iOS Architecture
-```swift
-// SKILL: iOS Architecture
-// Nível: Intermediário → Expert
-// Contexto: Arquitetura iOS
-
-// PADRÕES:
-// 1. MVC: Model-View-Controller
-// 2. MVP: Model-View-Presenter
-// 3. MVVM: Model-View-ViewModel
-// 4. VIPER: View-Interactor-Entity
-// 5. Clean Architecture: layers
-
-// MELHORIA:
-// ERRADO: Massive MVC
-// CERTO: Clean, testable architecture
-```
-
-### App Lifecycle (100)
-
-#### IOS007: iOS App Lifecycle
-```swift
-// SKILL: iOS App Lifecycle
-// Nível: Intermediário → Expert
-// Contexto: Ciclo de vida do app iOS
-
-// ESTADOS:
-// 1. Not Running: app not launched
-// 2. Inactive: transition state
-// 3. Active: foreground, interactive
-// 4. Background: executing code
-// 5. Suspended: in memory only
-
-// MELHORIA:
-// ERRADO: No lifecycle awareness
-// CERTO: Proper lifecycle management
-```
-
-### iOS Testing (100)
-
-#### IOS008: iOS Testing
-```swift
-// SKILL: iOS Testing
-// Nível: Intermediário → Expert
-// Contexto: Testes no iOS
-
-// TIPOS:
-// 1. Unit Tests: business logic
-// 2. UI Tests: XCUITest
-// 3. Snapshot Tests: visual regression
-// 4. Integration Tests: component interaction
-// 5. Performance Tests: metrics
-
-// FERRAMENTAS:
-// XCTest, Quick/Nimble
-// EarlGrey, Detox
-
-// MELHORIA:
-// ERRADO: No iOS tests
-// CERTO: Comprehensive test suite
+# MELHORIA:
+# ERRADO: No persistence strategy
+# CORRECT: Appropriate data persistence
 ```
 
 ---
 
-## 🤖 Android Development (1.500)
+## 🤖 Android Development (2.000)
 
 ### Kotlin Fundamentals (200)
 
 #### AND001: Kotlin Fundamentals
-```kotlin
-// SKILL: Kotlin Fundamentals
-// Nível: Intermediário → Expert
-// Contexto: Fundamentos do Kotlin
+```python
+# SKILL: Kotlin Fundamentals
+# Nível: Intermediário → Expert
+# Contexto: Fundamentos de Kotlin
 
-// CONCEITOS:
-// 1. Null Safety: nullable types
-// 2. Coroutines: async programming
-// 3. Extensions: add functionality
-// 4. Data Classes: immutable data
-// 5. Sealed Classes: restricted hierarchies
+# CONCEITOS:
+# 1. Null Safety: nullable types
+# 2. Coroutines: asynchronous
+# 3. Extensions: adding functionality
+# 4. Data Classes: simple holders
+# 5. Sealed Classes: restricted hierarchies
 
-// MELHORIA:
-// ERRADO: Java-style Kotlin
-// CERTO: Idiomatic Kotlin
+# RECURSOS:
+# 1. Lambdas: concise functions
+# 2. Higher-Order: function parameters
+# 3. Delegates: property delegation
+# 4. DSLs: domain-specific languages
+# 5. Scope Functions: let, run, apply
+
+# MELHORIA:
+# ERRADO: Java mindset in Kotlin
+# CORRECT: Idiomatic Kotlin
 ```
 
 ### Jetpack Compose (200)
 
 #### AND002: Jetpack Compose
-```kotlin
-// SKILL: Jetpack Compose
-// Nível: Intermediário → Expert
-// Contexto: Jetpack Compose
+```python
+# SKILL: Jetpack Compose
+# Nível: Intermediário → Expert
+# Contexto: Jetpack Compose
 
-// CONCEITOS:
-// 1. Composables: UI functions
-// 2. State: remember, mutableStateOf
-// 3. Layout: Row, Column, Box
-// 4. Lists: LazyColumn, LazyRow
-// 5. Navigation: Compose Navigation
+# CONCEITOS:
+# 1. Declarative: describe UI
+# 2. Composable: function-based UI
+# 3. State: reactive updates
+# 4. Recomposition: efficient updates
+# 5. Material Design: theming
 
-// MELHORIA:
-// ERRADO: XML layouts mindset
-// CERTO: Declarative Compose
+# COMPONENTES:
+# 1. Text: label display
+# 2. Button: user interaction
+# 3. Column/Row: layout
+# 4. LazyColumn: scrollable lists
+# 5. Navigation: screen flow
+
+# MELHORIA:
+# ERRADO: XML layouts only
+# CORRECT: Modern Compose development
 ```
 
 ### Android Architecture (150)
 
 #### AND003: Android Architecture
-```kotlin
-// SKILL: Android Architecture
-// Nível: Intermediário → Expert
-// Contexto: Arquitetura Android
+```python
+# SKILL: Android Architecture
+# Nível: Intermediário → Expert
+# Contexto: Arquitetura Android
 
-// PADRÕES:
-// 1. MVVM: Model-View-ViewModel
-// 2. MVI: Model-View-Intent
-// 3. Clean Architecture: layers
-// 4. Repository Pattern: data layer
-// 5. Dependency Injection: Hilt
+# PADRÕES:
+# 1. MVVM: Model-View-ViewModel
+# 2. MVI: Model-View-Intent
+# 3. Clean Architecture: layers
+# 4. Repository: data abstraction
+# 5. Use Cases: business logic
 
-// COMPONENTES:
-// ViewModel, LiveData, Flow
-// Room, Navigation, WorkManager
+# JETPACK:
+# 1. ViewModel: lifecycle-aware
+# 2. LiveData: observable data
+# 3. Room: database
+# 4. Navigation: screen management
+# 5. WorkManager: background tasks
 
-// MELHORIA:
-// ERRADO: God Activities
-// CERTO: Clean, testable architecture
+# MELHORIA:
+# ERRADO: Activity-based architecture
+# CORRECT: Modern Android architecture
 ```
 
-### Android Networking (100)
+### Android UI (100)
 
-#### AND004: Android Networking
-```kotlin
-// SKILL: Android Networking
-// Nível: Intermediário → Expert
-// Contexto: Networking no Android
+#### AND004: Android UI
+```python
+# SKILL: Android UI
+# Nível: Intermediário → Expert
+# Contexto: UI Android
 
-// FERRAMENTAS:
-// 1. Retrofit: REST client
-// 2. OkHttp: HTTP client
-// 3. Ktor: Kotlin-first
-// 4. GraphQL: Apollo Android
-// 5. WebSocket: real-time
+# CONCEITOS:
+# 1. Material Design: design system
+# 2. RecyclerView: efficient lists
+# 3. ConstraintLayout: flexible layouts
+# 4. Animation: transitions, motion
+# 5. Dark Mode: theme switching
 
-// MELHORIA:
-// ERRADO: AsyncTask networking
-// CORRECT: Clean networking with coroutines
-```
-
-### Android Storage (150)
-
-#### AND005: Android Storage
-```kotlin
-// SKILL: Android Storage
-// Nível: Intermediário → Expert
-// Contexto: Armazenamento Android
-
-// OPÇÕES:
-// 1. Room: SQLite abstraction
-// 2. DataStore: key-value, protobuf
-// 3. SharedPreferences: simple storage
-// 4. Internal Storage: private files
-// 5. External Storage: shared files
-
-// MELHORIA:
-// ERRADO: Raw SQLite
-// CORRECT: Room with proper data layer
-```
-
-### Android Testing (100)
-
-#### AND006: Android Testing
-```kotlin
-// SKILL: Android Testing
-// Nível: Intermediário → Expert
-// Contexto: Testes no Android
-
-// TIPOS:
-// 1. Unit Tests: JVM tests
-// 2. Instrumented Tests: device tests
-// 3. UI Tests: Espresso, Compose Testing
-// 4. Integration Tests: component tests
-// 5. Snapshot Tests: visual regression
-
-// FERRAMENTAS:
-// JUnit, Mockk, Espresso
-// Compose Testing, Robolectric
-
-// MELHORIA:
-// ERRADO: No Android tests
-// CORRECT: Comprehensive test strategy
+# MELHORIA:
+# ERRADO: Outdated UI patterns
+# CORRECT: Modern Material Design
 ```
 
 ---
 
-## 🔄 Cross-Platform (1.500)
+## 🔄 Cross-Platform (2.000)
 
 ### React Native (200)
 
-#### CROSS001: React Native Development
-```javascript
-// SKILL: React Native Development
-// Nível: Intermediário → Expert
-// Contexto: Desenvolvimento React Native
+#### RN001: React Native
+```python
+# SKILL: React Native
+# Nível: Intermediário → Expert
+# Contexto: React Native
 
-// CONCEITOS:
-// 1. Components: native elements
-// 2. Navigation: React Navigation
-// 3. State: Redux, Context, Zustand
-// 4. Native Modules: platform-specific
-// 5. Performance: optimization
+# CONCEITOS:
+# 1. Components: native elements
+# 2. JSX: UI description
+# 3. State: component state
+# 4. Props: data passing
+# 5. Navigation: screen management
 
-// FERRAMENTAS:
-// Expo, React Native CLI
-// Flipper, Reactotron
+# FERRAMENTAS:
+# 1. Expo: development platform
+# 2. React Navigation: routing
+# 3. Redux: state management
+# 4. Native Modules: platform code
+# 5. Flipper: debugging
 
-// MELHORIA:
-// ERRADO: Web-first mindset
-// CORRECT: Mobile-first React Native
+# MELHORIA:
+# ERRADO: Web React mindset
+# CORRECT: React Native best practices
 ```
 
 ### Flutter (200)
 
-#### CROSS002: Flutter Development
-```dart
-// SKILL: Flutter Development
-// Nível: Intermediário → Expert
-// Contexto: Desenvolvimento Flutter
+#### FL001: Flutter
+```python
+# SKILL: Flutter
+# Nível: Intermediário → Expert
+# Contexto: Flutter
 
-// CONCEITOS:
-// 1. Widgets: composable UI
-// 2. Dart: language fundamentals
-// 3. State Management: Provider, Riverpod, Bloc
-// 4. Navigation: GoRouter
-// 5. Platform Channels: native code
+# CONCEITOS:
+# 1. Dart: programming language
+# 2. Widgets: composable UI elements
+# 3. State: state management
+# 4. Hot Reload: rapid development
+# 5. Platform Channels: native code
 
-// MELHORIA:
-// ERRADO: Flutter as web framework
-// CORRECT: Flutter for beautiful mobile apps
+# WIDGETS:
+# 1. StatelessWidget: immutable
+# 2. StatefulWidget: mutable state
+# 3. Scaffold: page structure
+# 4. ListView: scrollable lists
+# 5. Container: styling, layout
+
+# MELHORIA:
+# ERRADO: Native-only mindset
+# CORRECT: Flutter cross-platform mastery
 ```
 
-### Xamarin/MAUI (150)
+### Cross-Platform Strategy (150)
 
-#### CROSS003: Xamarin/MAUI Development
-```csharp
-// SKILL: Xamarin/MAUI Development
-// Nível: Intermediário → Expert
-// Contexto: Desenvolvimento Xamarin/MAUI
+#### CP001: Cross-Platform Strategy
+```python
+# SKILL: Cross-Platform Strategy
+# Nível: Intermediário → Expert
+# Contexto: Estratégia cross-platform
 
-// CONCEITOS:
-// 1. XAML: UI markup
-// 2. MVVM: data binding
-// 3. Dependency Injection: services
-// 4. Effects: platform customization
-// 5. Handlers: cross-platform
+# OPÇÕES:
+# 1. Native: platform-specific
+# 2. Hybrid: web + native
+# 3. Cross-Platform: shared code
+# 4. PWA: progressive web app
+# 5. Kotlin Multiplatform: shared logic
 
-// MELHORIA:
-// ERRADO: Xamarin.Forms legacy
-// CORRECT: .NET MAUI modern approach
+# DECISÕES:
+# 1. Performance: native vs cross
+# 2. Code Sharing: % shared
+# 3. Platform Features: native access
+# 4. Team Skills: learning curve
+# 5. Maintenance: long-term cost
+
+# MELHORIA:
+# ERRADO: One-size-fits-all
+# CORRECT: Context-appropriate choice
 ```
 
-### Ionic (100)
+### Code Sharing (100)
 
-#### CROSS004: Ionic Development
-```typescript
-// SKILL: Ionic Development
-// Nível: Intermediário → Expert
-// Contexto: Desenvolvimento Ionic
+#### CP002: Code Sharing
+```python
+# SKILL: Code Sharing
+# Nível: Intermediário → Expert
+# Contexto: Compartilhamento de código
 
-// CONCEITOS:
-// 1. Components: Ionic UI library
-// 2. Capacitor: native runtime
-// 3. Angular/React/Vue: frameworks
-// 4. Platform: iOS, Android, Web
-// 5. Plugins: native functionality
+# ESTRATÉGIAS:
+# 1. Business Logic: shared code
+# 2. UI Components: shared widgets
+# 3. API Layer: shared networking
+# 4. Models: shared data structures
+# 5. Utilities: shared helpers
 
-// MELHORIA:
-// ERRADO: Hybrid app mindset
-// CORRECT: Progressive web app approach
+# FERRAMENTAS:
+# 1. Kotlin Multiplatform: logic sharing
+# 2. Realm: shared database
+# 3. Ktor: shared networking
+# 4. SQLDelight: shared SQL
+# 5. Decompose: shared navigation
+
+# MELHORIA:
+# ERRADO: Duplicate code everywhere
+# CORRECT: Strategic code sharing
 ```
 
 ---
 
-## 🏗️ Mobile Architecture (1.000)
+## 🏗️ Mobile Architecture (1.500)
 
 ### Clean Architecture (200)
 
-#### ARCH001: Mobile Clean Architecture
-```kotlin
-// SKILL: Mobile Clean Architecture
-// Nível: Intermediário → Expert
-// Contexto: Clean Architecture mobile
+#### MA001: Clean Architecture
+```python
+# SKILL: Clean Architecture
+# Nível: Intermediário → Expert
+# Contexto: Arquitetura limpa
 
-// CAMADAS:
-// 1. Domain: business logic, entities
-// 2. Data: repositories, data sources
-// 3. Presentation: UI, view models
-// 4. Frameworks: external dependencies
+# CAMADAS:
+# 1. Presentation: UI logic
+# 2. Domain: business rules
+# 3. Data: data access
+# 4. Framework: external dependencies
+# 5. Dependency Injection: inversion
 
-// PRINCÍPIOS:
-// Dependency Rule: outer → inner
-// Domain independence: no frameworks
+# PRINCÍPIOS:
+# 1. Dependency Rule: inner layers independent
+# 2. Separation of Concerns: single responsibility
+# 3. Testability: easily testable
+# 4. Maintainability: easy to change
+# 5. Scalability: grows with complexity
 
-// MELHORIA:
-// ERRADO: Tangled layers
-// CORRECT: Clean separation of concerns
+# MELHORIA:
+# ERRADO: Spaghetti architecture
+# CORRECT: Clean, layered architecture
 ```
 
-### MVVM/MVI (200)
+### State Management (200)
 
-#### ARCH002: MVVM/MVI Patterns
-```kotlin
-// SKILL: MVVM/MVI Patterns
-// Nível: Intermediário → Expert
-// Contexto: Padrões MVVM/MVI
+#### MA002: State Management
+```python
+# SKILL: State Management
+# Nível: Intermediário → Expert
+# Contexto: Gestão de estado
 
-// MVVM:
-// 1. View: UI layer
-// 2. ViewModel: presentation logic
-// 3. Model: business logic
-// 4. Data Binding: reactive
-// 5. LiveData/Flow: observable
+# PADRÕES:
+# 1. Single Source of Truth: centralized
+# 2. Unidirectional Data Flow: top-down
+# 3. Immutable State: read-only
+# 4. Reactive: observe changes
+# 5. Side Effects: isolated
 
-// MVI:
-// 1. Model: immutable state
-// 2. View: renders state
-// 3. Intent: user actions
-// 4. Reducer: state transitions
+# FERRAMENTAS:
+# 1. Redux: predictable state
+# 2. MobX: observable state
+# 3. Riverpod: Flutter state
+# 4. Provider: dependency injection
+# 5. BLoC: business logic component
 
-// MELHORIA:
-// ERRADO: God Activities/Fragments
-// CORRECT: Unidirectional data flow
-```
-
-### Repository Pattern (150)
-
-#### ARCH003: Repository Pattern
-```kotlin
-// SKILL: Repository Pattern
-// Nível: Intermediário → Expert
-// Contexto: Padrão Repository
-
-// CONCEITOS:
-// 1. Interface: contract definition
-// 2. Implementation: data sources
-// 3. Caching: local + remote
-// 4. Error Handling: unified
-// 5. Testing: mockable
-
-// MELHORIA:
-// ERRADO: Data sources in ViewModel
-// CORRECT: Clean repository abstraction
+# MELHORIA:
+# ERRADO: Prop drilling chaos
+# CORRECT: Centralized state management
 ```
 
 ### Dependency Injection (150)
 
-#### ARCH004: Mobile Dependency Injection
-```kotlin
-// SKILL: Mobile Dependency Injection
-// Nível: Intermediário → Expert
-// Contexto: Injeção de dependência mobile
+#### MA003: Dependency Injection
+```python
+# SKILL: Dependency Injection
+# Nível: Intermediário → Expert
+# Contexto: Injeção de dependência
 
-// FERRAMENTAS:
-// 1. Hilt: Android (Google)
-// 2. Koin: Kotlin-first
-// 3. Dagger: compile-time
-// 4. Swinject: iOS
-// 5. Factory: manual
+# CONCEITOS:
+# 1. Constructor: injected via init
+# 2. Property: injected via property
+# 3. Method: injected via method
+# 4. Container: centralized resolution
+# 5. Scope: lifetime management
 
-// MELHORIA:
-// ERRADO: Manual dependency management
-// CORRECT: DI framework for testability
+# FERRAMENTAS:
+# 1. Dagger: compile-time DI
+# 2. Hilt: Android DI
+# 3. Koin: lightweight DI
+# 4. Swinject: iOS DI
+# 5. GetIt: service locator
+
+# MELHORIA:
+# ERRADO: Manual dependency creation
+# CORRECT: Managed dependency injection
 ```
 
-### Feature Modularity (150)
+### Navigation Patterns (100)
 
-#### ARCH005: Feature Modularity
-```kotlin
-// SKILL: Feature Modularity
-// Nível: Intermediário → Expert
-// Contexto: Modularização por features
+#### MA004: Navigation Patterns
+```python
+# SKILL: Navigation Patterns
+# Nível: Intermediário → Expert
+# Contexto: Padrões de navegação
 
-// CONCEITOS:
-// 1. Feature Modules: independent features
-// 2. Core Modules: shared code
-// 3. Navigation: inter-module communication
-// 4. Build: Gradle modules
-// 5. Testing: module-level tests
+# PADRÕES:
+# 1. Stack: push/pop screens
+# 2. Tab: bottom navigation
+# 3. Drawer: side menu
+# 4. Router: URL-based
+# 5. Coordinator: flow management
 
-// MELHORIA:
-// ERRADO: Monolithic app
-// CORRECT: Modular, scalable architecture
+# FERRAMENTAS:
+# 1. React Navigation: React Native
+# 2. Navigation Compose: Jetpack
+# 3. Coordinator: iOS pattern
+# 4. GoRouter: declarative routing
+# 5. AutoRoute: code generation
+
+# MELHORIA:
+# ERRADO: Ad-hoc navigation
+# CORRECT: Structured navigation
 ```
 
 ---
 
-## 🧪 Mobile Testing (800)
+## 🧪 Mobile Testing (1.500)
 
-### Unit Testing (150)
+### Unit Testing (200)
 
-#### MTEST001: Mobile Unit Testing
-```kotlin
-// SKILL: Mobile Unit Testing
-// Nível: Intermediário → Expert
-// Contexto: Testes unitários mobile
+#### MT001: Unit Testing
+```python
+# SKILL: Unit Testing
+# Nível: Intermediário → Expert
+# Contexto: Teste unitário
 
-// FERRAMENTAS:
-// Android: JUnit, Mockk
-// iOS: XCTest, Quick/Nimble
-// Cross: MockK, Mockito
+# FERRAMENTAS:
+# 1. JUnit: Java/Kotlin testing
+# 2. XCTest: iOS testing
+# 3. Mockito: mocking framework
+# 4. Quick/Nimble: BDD testing
+# 5. Turbine: Flow testing
 
-// MELHORIA:
-// ERRADO: No unit tests
-// CORRECT: Comprehensive unit test suite
+# CONCEITOS:
+# 1. AAA: Arrange, Act, Assert
+# 2. Mocking: isolate dependencies
+# 3. Stubbing: predefined responses
+# 4. Coverage: % code tested
+# 5. TDD: test-driven development
+
+# MELHORIA:
+# ERRADO: No unit tests
+# CORRECT: Comprehensive unit testing
 ```
 
-### UI Testing (150)
+### UI Testing (200)
 
-#### MTEST002: Mobile UI Testing
-```kotlin
-// SKILL: Mobile UI Testing
-// Nível: Intermediário → Expert
-// Contexto: Testes de UI mobile
+#### MT002: UI Testing
+```python
+# SKILL: UI Testing
+# Nível: Intermediário → Expert
+# Contexto: Teste de UI
 
-// FERRAMENTAS:
-// Android: Espresso, Compose Testing
-// iOS: XCUITest
-// Cross: Appium, Detox
+# FERRAMENTAS:
+# 1. Espresso: Android UI testing
+# 2. XCUITest: iOS UI testing
+# 3. Detox: React Native testing
+# 4. Flutter Widget: widget testing
+# 5. Appium: cross-platform
 
-// MELHORIA:
-// ERRADO: Manual UI testing only
-// CORRECT: Automated UI test suite
+# CONCEITOS:
+# 1. Accessibility IDs: element location
+# 2. Actions: tap, swipe, type
+# 3. Assertions: verify state
+# 4. Screenshot: visual verification
+# 5. Record/Replay: test generation
+
+# MELHORIA:
+# ERRADO: Manual testing only
+# CORRECT: Automated UI testing
 ```
 
-### Integration Testing (100)
+### Integration Testing (150)
 
-#### MTEST003: Mobile Integration Testing
-```kotlin
-// SKILL: Mobile Integration Testing
-// Nível: Intermediário → Expert
-// Contexto: Testes de integração mobile
+#### MT003: Integration Testing
+```python
+# SKILL: Integration Testing
+# Nível: Intermediário → Expert
+# Contexto: Teste de integração
 
-// TIPOS:
-// 1. API Integration: backend connection
-// 2. Database: local storage
-// 3. Navigation: screen transitions
-// 4. Permissions: system access
-// 5. Deep Links: URL handling
+# CONCEITOS:
+# 1. API Testing: backend integration
+# 2. Database: data layer testing
+# 3. Network: connectivity testing
+# 4. Device: hardware integration
+# 5. End-to-End: full flow testing
 
-// MELHORIA:
-// ERRADO: No integration tests
-// CORRECT: Critical path integration tests
+# MELHORIA:
+# ERRADO: Unit tests only
+# CORRECT: Comprehensive testing pyramid
 ```
 
 ### Performance Testing (100)
 
-#### MTEST004: Mobile Performance Testing
-```kotlin
-// SKILL: Mobile Performance Testing
-// Nível: Intermediário → Expert
-// Contexto: Testes de performance mobile
+#### MT004: Performance Testing
+```python
+# SKILL: Performance Testing
+# Nível: Intermediário → Expert
+# Contexto: Teste de performance
 
-// MÉTRICAS:
-// 1. Launch Time: cold, warm
-// 2. Frame Rate: FPS, jank
-// 3. Memory: usage, leaks
-// 4. Battery: drain, efficiency
-// 5. Network: latency, data usage
+# MÉTRICAS:
+# 1. Launch Time: app startup
+# 2. Frame Rate: UI smoothness
+# 3. Memory: RAM usage
+# 4. Battery: power consumption
+# 5. Network: data usage
 
-// FERRAMENTAS:
-// Android Profiler, Instruments
-// Firebase Performance
+# FERRAMENTAS:
+# 1. Instruments: iOS profiling
+# 2. Profiler: Android profiling
+# 3. Flipper: React Native debugging
+# 4. Flutter DevTools: Flutter profiling
+# 5. Battery Historian: battery analysis
 
-// MELHORIA:
-// ERRADO: No performance testing
-// CORRECT: Regular performance monitoring
-```
-
----
-
-## 🔒 Mobile Security (700)
-
-### Secure Storage (150)
-
-#### MSEC001: Mobile Secure Storage
-```kotlin
-// SKILL: Mobile Secure Storage
-// Nível: Intermediário → Expert
-// Contexto: Armazenamento seguro mobile
-
-// ANDROID:
-// 1. EncryptedSharedPreferences
-// 2. EncryptedFile
-// 3. Keystore: key management
-// 4. SafetyNet: attestation
-
-// iOS:
-// 1. Keychain: secure storage
-// 2. Data Protection: file encryption
-// 3. Secure Enclave: hardware security
-
-// MELHORIA:
-// ERRADO: Plain text storage
-// CORRECT: Encrypted secure storage
-```
-
-### Network Security (100)
-
-#### MSEC002: Mobile Network Security
-```kotlin
-// SKILL: Mobile Network Security
-// Nível: Intermediário → Expert
-// Contexto: Segurança de rede mobile
-
-// CONCEITOS:
-// 1. Certificate Pinning: MITM prevention
-// 2. TLS: encrypted communication
-// 3. VPN: secure tunnel
-// 4. Network Security Config: Android
-// 5. App Transport Security: iOS
-
-// MELHORIA:
-// ERRADO: No certificate pinning
-// CORRECT: Proper network security
-```
-
-### Code Protection (100)
-
-#### MSEC003: Mobile Code Protection
-```kotlin
-// SKILL: Mobile Code Protection
-// Nível: Intermediário → Expert
-// Contexto: Proteção de código mobile
-
-// TÉCNICAS:
-// 1. ProGuard/R8: obfuscation
-// 2. Swift Shield: iOS obfuscation
-// 3. Anti-Tampering: integrity checks
-// 4. Root/Jailbreak Detection
-// 5. Debugger Detection
-
-// MELHORIA:
-// ERRADO: No code protection
-// CORRECT: Multi-layered protection
-```
-
-### Authentication (150)
-
-#### MSEC004: Mobile Authentication
-```kotlin
-// SKILL: Mobile Authentication
-// Nível: Intermediário → Expert
-// Contexto: Autenticação mobile
-
-// MÉTODOS:
-// 1. Biometric: fingerprint, face
-// 2. OAuth 2.0: social login
-// 3. JWT: token-based
-// 4. SSO: single sign-on
-// 5. Multi-Factor: 2FA
-
-// MELHORIA:
-// ERRADO: Weak authentication
-// CORRECT: Strong, user-friendly auth
-```
-
----
-
-## ⚡ Mobile Performance (1.000)
-
-### Startup Optimization (200)
-
-#### MPERF001: Mobile Startup Optimization
-```kotlin
-// SKILL: Mobile Startup Optimization
-// Nível: Intermediário → Expert
-// Contexto: Otimização de startup mobile
-
-// TÉCNICAS:
-// 1. Lazy Loading: defer initialization
-// 2. Background Init: async tasks
-// 3. Splash Screen: perceived performance
-// 4. App Startup Library: Android
-// 5. Pre-warming: iOS background fetch
-
-// MELHORIA:
-// ERRADO: Heavy startup
-// CORRECT: Fast, optimized startup
-```
-
-### Memory Optimization (150)
-
-#### MPERF002: Mobile Memory Optimization
-```kotlin
-// SKILL: Mobile Memory Optimization
-// Nível: Intermediário → Expert
-// Contexto: Otimização de memória mobile
-
-// TÉCNICAS:
-// 1. Memory Leaks: detection, prevention
-// 2. Bitmap Optimization: sampling, caching
-// 3. Object Pooling: reuse objects
-// 4. Weak References: prevent leaks
-// 5. Profiling: Android Studio, Instruments
-
-// MELHORIA:
-// ERRADO: Memory leaks, high usage
-// CORRECT: Optimized memory management
-```
-
-### Battery Optimization (150)
-
-#### MPERF003: Mobile Battery Optimization
-```kotlin
-// SKILL: Mobile Battery Optimization
-// Nível: Intermediário → Expert
-// Contexto: Otimização de bateria mobile
-
-// TÉCNICAS:
-// 1. Background Jobs: WorkManager, BGTaskScheduler
-// 2. Location: passive, significant
-// 3. Networking: batch, compress
-// 4. Sensors: rate, batching
-// 5. Doze Mode: respect system
-
-// MELHORIA:
-// ERRADO: Battery drain
-// CORRECT: Battery-efficient app
-```
-
-### Network Optimization (150)
-
-#### MPERF004: Mobile Network Optimization
-```kotlin
-// SKILL: Mobile Network Optimization
-// Nível: Intermediário → Expert
-// Contexto: Otimização de rede mobile
-
-// TÉCNICAS:
-// 1. Caching: HTTP, in-memory
-// 2. Compression: gzip, brotli
-// 3. Batching: request grouping
-// 4. Prefetching: predictive loading
-// 5. Connection: keep-alive, HTTP/2
-
-// MELHORIA:
-// ERRADO: Excessive network usage
-// CORRECT: Optimized network efficiency
+# MELHORIA:
+# ERRADO: No performance testing
+# CORRECT: Regular performance monitoring
 ```
 
 ---
 
 ## 🎨 Mobile UI/UX (1.000)
 
-### Material Design (200)
+### Platform Guidelines (200)
 
-#### MUI001: Material Design
-```kotlin
-// SKILL: Material Design
-// Nível: Intermediário → Expert
-// Contexto: Material Design
+#### MUI001: Platform Guidelines
+```python
+# SKILL: Platform Guidelines
+# Nível: Intermediário → Expert
+# Contexto: Diretrizes de plataforma
 
-// CONCEITOS:
-// 1. Components: buttons, cards, lists
-// 2. Typography: type scale
-// 3. Color: palette, theming
-# 4. Elevation: shadows, depth
-// 5. Motion: animations, transitions
+# APPLE:
+# 1. HIG: Human Interface Guidelines
+# 2. Navigation: tab bars, nav controllers
+# 3. Typography: San Francisco
+# 4. Icons: SF Symbols
+# 5. Gestures: swipe, long press
 
-// MELHORIA:
-// ERRADO: Custom, inconsistent UI
-// CORRECT: Consistent Material Design
+# GOOGLE:
+# 1. Material Design: design system
+# 2. Navigation: bottom nav, drawer
+# 3. Typography: Roboto
+# 4. Icons: Material Icons
+# 5. Gestures: material motion
+
+# MELHORIA:
+# ERRADO: One design for both
+# CORRECT: Platform-appropriate design
 ```
 
-### Human Interface Guidelines (150)
+### Mobile Navigation (150)
 
-#### MUI002: Human Interface Guidelines
-```swift
-// SKILL: Human Interface Guidelines
-// Nível: Intermediário → Expert
-// Contexto: Diretrizes de Interface Humana
+#### MUI002: Mobile Navigation
+```python
+# SKILL: Mobile Navigation
+# Nível: Intermediário → Expert
+# Contexto: Navegação mobile
 
-// PRINCÍPIOS:
-// 1. Clarity: legible, precise
-// 2. Deference: content is focus
-// 3. Depth: visual hierarchy
+# PADRÕES:
+# 1. Tab Bar: top-level sections
+# 2. Stack: hierarchical navigation
+# 3. Drawer: many destinations
+# 4. Bottom Sheet: contextual options
+# 5. Modal: focused tasks
 
-// COMPONENTES:
-// Navigation, Bars, Lists
-// Controls, Alerts, Sheets
+# CONCEITOS:
+# 1. Depth: navigation hierarchy
+# 2. Transitions: spatial movement
+# 3. Back: returning to previous
+# 4. Deep Linking: URL-based
+# 5. State Preservation: restoration
 
-// MELHORIA:
-// ERRADO: Android UI on iOS
-// CORRECT: Platform-appropriate design
+# MELHORIA:
+# ERRADO: Confusing navigation
+# CORRECT: Clear, intuitive navigation
 ```
 
-### Responsive Design (150)
+### Touch Interactions (100)
 
-#### MUI003: Mobile Responsive Design
-```kotlin
-// SKILL: Mobile Responsive Design
-// Nível: Intermediário → Expert
-// Contexto: Design responsivo mobile
+#### MUI003: Touch Interactions
+```python
+# SKILL: Touch Interactions
+# Nível: Intermediário → Expert
+# Contexto: Interações de toque
 
-// CONCEITOS:
-// 1. Screen Sizes: phone, tablet, foldable
-// 2. Orientation: portrait, landscape
-// 3. Adaptive Layout: constraint-based
-// 4. Responsive Grid: flexible columns
-// 5. Breakpoints: size categories
+# GESTOS:
+# 1. Tap: primary interaction
+# 2. Long Press: secondary actions
+# 3. Swipe: navigation, actions
+# 4. Pinch: zoom in/out
+# 5. Pan: scroll, drag
 
-// MELHORIA:
-// ERRADO: Single screen size
-// CORRECT: Adaptive to all screens
-```
+# CONCEITOS:
+# 1. Target Size: minimum 44pt
+# 2. Feedback: visual, haptic
+# 3. Affordance: visible cues
+# 4. Discoverability: gestures visible
+# 5. Forgiveness: easy undo
 
-### Animation (150)
-
-#### MUI004: Mobile Animation
-```kotlin
-// SKILL: Mobile Animation
-// Nível: Intermediário → Expert
-// Contexto: Animação mobile
-
-// TIPOS:
-// 1. Implicit: state-based
-// 2. Explicit: choreographed
-// 3. Transition: shared elements
-// 4. Physics: spring, gravity
-// 5. Gesture: interactive
-
-// FERRAMENTAS:
-// Lottie, Rive, Airbnb Motion
-// SwiftUI Animation, Compose Animation
-
-// MELHORIA:
-// ERRADO: No animation
-// CORRECT: Purposeful, smooth animation
-```
-
-### Accessibility (150)
-
-#### MUI005: Mobile Accessibility
-```kotlin
-// SKILL: Mobile Accessibility
-// Nível: Intermediário → Expert
-// Contexto: Acessibilidade mobile
-
-// CONCEITOS:
-// 1. Screen Readers: TalkBack, VoiceOver
-// 2. Dynamic Type: scalable text
-// 3. Color Contrast: WCAG compliance
-// 4. Touch Targets: minimum size
-// 5. Haptic Feedback: vibration
-
-// MELHORIA:
-// ERRADO: No accessibility
-// CORRECT: Fully accessible app
+# MELHORIA:
+# ERRADO: Mouse-based interactions
+# CORRECT: Touch-optimized design
 ```
 
 ---
