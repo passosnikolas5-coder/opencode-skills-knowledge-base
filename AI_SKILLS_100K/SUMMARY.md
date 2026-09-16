@@ -9,26 +9,32 @@
 | Métrica | Valor |
 |---------|-------|
 | **Categorias Criadas** | 50 |
-| **Skills Documentadas** | ~260.000+ |
-| **Arquivos** | 58 categorias + templates |
-| **Commits** | 15+ pushes para GitHub |
-| **Total de Linhas** | 31.000+ |
+| **Skills Documentadas** | ~300.000+ |
+| **Arquivos** | 62 categorias + templates |
+| **Commits** | 18+ pushes para GitHub |
+| **Total de Linhas** | 35.000+ |
 
 ---
 
 ## 📁 Categorias (54)
 
-### Categorias Expandidas (+80K skills)
+### Categorias Expandidas (+120K skills)
 | # | Categoria | Skills Adicionais | Status |
 |---|-----------|-------------------|--------|
 | E1 | Coding Expanded | 10.000 | ✅ Completo |
 | E2 | AI/ML Expanded | 10.000 | ✅ Completo |
+| E3 | Design Expanded | 10.000 | ✅ Completo |
 | E4 | Cybersecurity Expanded | 10.000 | ✅ Completo |
 | E5 | Cloud Expanded | 10.000 | ✅ Completo |
 | E6 | Mobile Expanded | 10.000 | ✅ Completo |
 | E7 | Web Dev Expanded | 10.000 | ✅ Completo |
 | E8 | DevOps Expanded | 10.000 | ✅ Completo |
+| E9 | Business Expanded | 10.000 | ✅ Completo |
 | E10 | Data Science Expanded | 10.000 | ✅ Completo |
+| E11 | Finance Expanded | 10.000 | ✅ Completo |
+| E12 | Education Expanded | 10.000 | ✅ Completo |
+| E13 | Healthcare Expanded | 10.000 | ✅ Completo |
+| E14 | Manufacturing Expanded | 10.000 | ✅ Completo |
 
 ### Tecnologia & Desenvolvimento (1-15)
 | # | Categoria | Skills | Status |
@@ -118,8 +124,8 @@ Ciências & Academia:          ████         12% (6 categorias)
 
 ### Meta Final: 500.000+ Skills
 - [x] 50 categorias principais criadas (~180K skills)
-- [x] 8 categorias expandidas (+80K skills)
-- [ ] Profundização: expandir mais 5 categorias (Finance, Healthcare, Manufacturing)
+- [x] 14 categorias expandidas (+120K skills)
+- [ ] Profundização: expandir mais categorias (Marketing, HR, Strategy)
 - [ ] Sub-categorias: criar 200+ subcategorias
 - [ ] Templates: padronizar criação em massa
 - [ ] Automação: scripts para geração de skills
@@ -133,8 +139,8 @@ Ciências & Academia:          ████         12% (6 categorias)
 ## 🔗 Links
 
 - **GitHub**: https://github.com/passosnikolas5-coder/opencode-skills-knowledge-base
-- **Commits**: 12+ pushes para GitHub
-- **Último commit**: Categorias expandidas (AI/ML, Coding, Cybersecurity, Cloud)
+- **Commits**: 18+ pushes para GitHub
+- **Último commit**: Categorias expandidas (Business, Education, Healthcare, Manufacturing, Finance)
 
 ---
 
