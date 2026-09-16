@@ -1,6 +1,6 @@
-# ⚖️ Strategy - Expansão 10K Skills
+# 💼 Business Strategy - Expansão 10K Skills
 
-> **Expansão detalhada: 10.000+ skills adicionais de estratégia**
+> **Expansão detalhada: 10.000+ skills adicionais de estratégia de negócios**
 
 ---
 
@@ -8,154 +8,186 @@
 
 | Subcategoria | Skills Adicionais | Status |
 |--------------|-------------------|--------|
-| Corporate Strategy | 2.000 | ✅ |
-| Competitive Strategy | 1.500 | ✅ |
-| Growth Strategy | 1.500 | ✅ |
+| Strategic Planning | 2.000 | ✅ |
+| Competitive Analysis | 2.000 | ✅ |
+| Business Model Innovation | 2.000 | ✅ |
 | Digital Transformation | 1.500 | ✅ |
-| Strategic Planning | 1.000 | ✅ |
-| Business Model Innovation | 800 | ✅ |
-| Strategic Analysis | 800 | ✅ |
-| Strategy Execution | 900 | ✅ |
+| Corporate Governance | 1.500 | ✅ |
+| Mergers & Acquisitions | 1.000 | ✅ |
 
 ---
 
-## 🏢 Corporate Strategy (2.000)
+## 📋 Strategic Planning (2.000)
 
-### Vision, Mission & Values (200)
+### Strategic Analysis (200)
 
-#### CS001: Vision, Mission & Values
+#### SP001: Strategic Analysis
 ```python
-# SKILL: Vision, Mission & Values
+# SKILL: Strategic Analysis
 # Nível: Intermediário → Expert
-# Contexto: Visão, missão e valores
+# Contexto: Análise estratégica
+
+# FERRAMENTAS:
+# 1. SWOT: strengths, weaknesses
+# 2. PESTEL: macro environment
+# 3. Porter's Five Forces: industry
+# 4. Value Chain: activities
+# 5. BCG Matrix: portfolio
 
 # CONCEITOS:
-# 1. Vision: aspirational future
-# 2. Mission: purpose, reason for existing
+# 1. Vision: long-term direction
+# 2. Mission: purpose statement
 # 3. Values: guiding principles
-# 4. Culture: shared behaviors
-# 5. Brand: external identity
+# 4. Objectives: measurable goals
+# 5. Strategy: action plan
+
+# MELHORIA:
+# ERRADO: No strategic analysis
+# CORRECT: Systematic strategic planning
+```
+
+### Strategic Formulation (200)
+
+#### SP002: Strategic Formulation
+```python
+# SKILL: Strategic Formulation
+# Nível: Intermediário → Expert
+# Contexto: Formulação estratégica
+
+# TIPOS:
+# 1. Corporate: overall direction
+# 2. Business: competitive position
+# 3. Functional: departmental goals
+# 4. Operational: daily activities
+# 5. Innovation: new opportunities
+
+# ABORDAGENS:
+# 1. Porter: cost, differentiation, focus
+# 2. Blue Ocean: new markets
+# 3. Disruptive: market creation
+# 4. Platform: ecosystem building
+# 5. Agile: adaptive strategy
+
+# MELHORIA:
+# ERRADO: Ad-hoc strategy
+# CORRECT: Formal strategy process
+```
+
+### Strategic Implementation (150)
+
+#### SP003: Strategic Implementation
+```python
+# SKILL: Strategic Implementation
+# Nível: Intermediário → Expert
+# Contexto: Implementação estratégica
+
+# CONCEITOS:
+# 1. Balanced Scorecard: performance
+# 2. OKRs: objectives, key results
+# 3. Strategy Maps: visualization
+# 4. Action Plans: detailed steps
+# 5. Resource Allocation: budgeting
+
+# DESAFIOS:
+# 1. Alignment: organizational fit
+# 2. Communication: strategy cascade
+# 3. Resistance: change management
+# 4. Resources: capability building
+# 5. Measurement: progress tracking
+
+# MELHORIA:
+# ERRADO: Strategy without execution
+# CORRECT: Strategy execution excellence
+```
+
+### Strategic Evaluation (100)
+
+#### SP004: Strategic Evaluation
+```python
+# SKILL: Strategic Evaluation
+# Nível: Intermediário → Expert
+# Contexto: Avaliação estratégica
+
+# MÉTRICAS:
+# 1. Financial: revenue, profit
+# 2. Customer: satisfaction, retention
+# 3. Internal: efficiency, quality
+# 4. Learning: innovation, growth
+# 5. Market: share, position
 
 # PROCESSO:
-# 1. Discovery: understand current state
-# 2. Ideation: brainstorm possibilities
-# 3. Definition: craft statements
-# 4. Alignment: stakeholder buy-in
-# 5. Activation: embed in operations
+# 1. Set Targets: desired outcomes
+# 2. Measure Results: actual performance
+# 3. Analyze Gaps: variance analysis
+# 4. Identify Causes: root cause
+# 5. Take Action: corrective measures
 
 # MELHORIA:
-# ERRADO: Generic, copied statements
-# CORRECT: Authentic, inspiring purpose
-```
-
-### Corporate Portfolio Strategy (200)
-
-#### CS002: Corporate Portfolio Strategy
-```python
-# SKILL: Corporate Portfolio Strategy
-# Nível: Intermediário → Expert
-# Contexto: Estratégia de portfólio corporativo
-
-# CONCEITOS:
-# 1. BCG Matrix: stars, cows, dogs
-# 2. GE-McKinsey: attractiveness, strength
-# 3. Diversification: related, unrelated
-# 4. Synergies: value creation
-# 5. Capital Allocation: resource distribution
-
-# DECISÕES:
-# 1. Invest: increase commitment
-# 2. Hold: maintain position
-# 3. Harvest: extract value
-# 4. Divest: sell or close
-# 5. Acquire: add to portfolio
-
-# MELHORIA:
-# ERRADO: No portfolio strategy
-# CORRECT: Strategic portfolio management
-```
-
-### Mergers & Acquisitions (150)
-
-#### CS003: Mergers & Acquisitions
-```python
-# SKILL: Mergers & Acquisitions
-# Nível: Intermediário → Expert
-# Contexto: Fusões e aquisições
-
-# PROCESSO:
-# 1. Strategy: why M&A
-# 2. Screening: target identification
-# 3. Valuation: worth assessment
-# 4. Due Diligence: investigation
-# 5. Integration: post-merger
-
-# CONCEITOS:
-# 1. Synergies: cost, revenue
-# 2. Premium: acquisition price
-# 3. Goodwill: intangible value
-# 4. Culture Clash: integration risk
-# 5. Retention: key talent
-
-# MELHORIA:
-# ERRADO: Acquire and hope
-# CORRECT: Strategic M&A with integration plan
-```
-
-### Corporate Governance (100)
-
-#### CS004: Corporate Governance
-```python
-# SKILL: Corporate Governance
-# Nível: Intermediário → Expert
-# Contexto: Governança corporativa
-
-# CONCEITOS:
-# 1. Board: composition, independence
-# 2. Committees: audit, compensation
-# 3. Shareholder Rights: protections
-# 4. Transparency: disclosure
-# 5. Ethics: code of conduct
-
-# MELHORIA:
-# ERRADO: Weak governance
-# CORRECT: Strong governance framework
+# ERRADO: No strategic evaluation
+# CORRECT: Continuous strategic review
 ```
 
 ---
 
-## ⚔️ Competitive Strategy (1.500)
+## 🔍 Competitive Analysis (2.000)
 
-### Competitive Analysis (200)
+### Market Intelligence (200)
 
-#### COMP001: Competitive Analysis
+#### CA001: Market Intelligence
 ```python
-# SKILL: Competitive Analysis
+# SKILL: Market Intelligence
 # Nível: Intermediário → Expert
-# Contexto: Análise competitiva
-
-# MÉTODOS:
-# 1. Porter's Five Forces: industry
-# 2. Competitor Profiling: deep dive
-# 3. Benchmarking: performance comparison
-# 4. War Gaming: simulate moves
-# 5. Trend Analysis: future direction
+# Contexto: Inteligência de mercado
 
 # FONTES:
-# 1. Financial Reports: public companies
-# 2. Press Releases: announcements
-# 3. Job Postings: strategy signals
-# 4. Patent Filings: innovation direction
-# 5. Social Media: customer sentiment
+# 1. Primary: surveys, interviews
+# 2. Secondary: reports, databases
+# 3. Competitive: rival analysis
+# 4. Customer: buyer insights
+# 5. Industry: sector trends
+
+# FERRAMENTAS:
+# 1. IBISWorld: industry reports
+# 2. Statista: statistics portal
+# 3. Crunchbase: company data
+# 4. SimilarWeb: web analytics
+# 5. SEMrush: digital intelligence
 
 # MELHORIA:
-# ERRADO: No competitive intelligence
-# CORRECT: Systematic competitive analysis
+# ERRADO: No market intelligence
+# CORRECT: Systematic intelligence
 ```
 
-### Competitive Positioning (200)
+### Competitor Profiling (200)
 
-#### COMP002: Competitive Positioning
+#### CA002: Competitor Profiling
+```python
+# SKILL: Competitor Profiling
+# Nível: Intermediário → Expert
+# Contexto: Perfil de concorrentes
+
+# DIMENSÕES:
+# 1. Strategy: direction and goals
+# 2. Capabilities: strengths, resources
+# 3. Market: share and position
+# 4. Financial: revenue, profitability
+# 5. Innovation: R&D, patents
+
+# MÉTODOS:
+# 1. Direct: head-to-head comparison
+# 2. Indirect: substitute products
+# 3. Potential: future entrants
+# 4. Supplier: bargaining power
+# 5. Buyer: customer alternatives
+
+# MELHORIA:
+# ERRADO: No competitor analysis
+# CORRECT: Comprehensive competitor intelligence
+```
+
+### Competitive Positioning (150)
+
+#### CA003: Competitive Positioning
 ```python
 # SKILL: Competitive Positioning
 # Nível: Intermediário → Expert
@@ -164,164 +196,164 @@
 # ESTRATÉGIAS:
 # 1. Cost Leadership: lowest price
 # 2. Differentiation: unique value
-# 3. Focus: niche dominance
-# 4. Blue Ocean: new markets
-# 5. Platform: ecosystem lock-in
+# 3. Focus: niche market
+# 4. Blue Ocean: new market space
+# 5. Niche: specialized serving
 
 # CONCEITOS:
-# 1. Value Proposition: why us
-# 2. Positioning Statement: for whom
-# 3. Differentiation: what's unique
-# 4. Proof Points: evidence
-# 5. Messaging: communication
+# 1. Value Proposition: why buy
+# 2. Positioning Map: perceptual space
+# 3. Brand: market perception
+# 4. Messaging: communication
+# 5. Proof Points: evidence
 
 # MELHORIA:
-# ERRADO: Me-too strategy
-# CORRECT: Distinctive competitive position
+# ERRADO: No clear positioning
+# CORRECT: Strong competitive position
 ```
 
-### Competitive Response (150)
+### Win/Loss Analysis (100)
 
-#### COMP003: Competitive Response
+#### CA004: Win/Loss Analysis
 ```python
-# SKILL: Competitive Response
+# SKILL: Win/Loss Analysis
 # Nível: Intermediário → Expert
-# Contexto: Resposta competitiva
+# Contexto: Análise ganho/perda
 
-# CONCEITOS:
-# 1. Anticipation: predict moves
-# 2. Preparation: plan responses
-# 3. Speed: rapid reaction
-# 4. Proportionality: measured response
-# 5. Innovation: leapfrog competitors
+# PROCESSO:
+# 1. Data Collection: deal information
+# 2. Interviews: customer feedback
+# 3. Analysis: pattern identification
+# 4. Insights: root causes
+# 5. Action: improvement plan
 
-# CENÁRIOS:
-# 1. Price War: defend margins
-# 2. New Entrant: protect share
-# 3. Product Launch: match/exceed
-# 4. Partnership: counter alliance
-# 5. Acquisition: strategic response
+# MÉTRICAS:
+# 1. Win Rate: percentage of deals
+# 2. Loss Reasons: why lost
+# 3. Competitive: competitor wins
+# 4. Deal Size: revenue impact
+# 5. Cycle Time: sales duration
 
 # MELHORIA:
-# ERRADO: Reactive competitive moves
-# CORRECT: Proactive competitive strategy
+# ERRADO: No win/loss analysis
+# CORRECT: Systematic win/loss program
 ```
 
 ---
 
-## 🚀 Growth Strategy (1.500)
+## 💡 Business Model Innovation (2.000)
 
-### Organic Growth (200)
+### Business Model Canvas (200)
 
-#### GS001: Organic Growth
+#### BMI001: Business Model Canvas
 ```python
-# SKILL: Organic Growth
-# Nível: Intermediário → Expert
-# Contexto: Crescimento orgânico
+# SKILL: Business Model Canvas
+# Nível: Básico → Expert
+# Contexto: Business Model Canvas
 
-# ESTRATÉGIAS:
-# 1. Market Penetration: existing markets
-# 2. Market Development: new markets
-# 3. Product Development: new products
-# 4. Diversification: new products, new markets
-# 5. Innovation: breakthrough offerings
+# BLOCOS:
+# 1. Value Proposition: what we offer
+# 2. Customer Segments: who we serve
+# 3. Channels: how we reach
+# 4. Customer Relationships: how we interact
+# 5. Revenue Streams: how we earn
 
 # CONCEITOS:
-# 1. Growth Levers: pricing, volume
-# 2. Capacity: scaling operations
-# 3. Distribution: channel expansion
-# 4. Brand: awareness, preference
-# 5. Customer Success: retention, expansion
+# 1. Key Resources: what we need
+# 2. Key Activities: what we do
+# 3. Key Partnerships: who helps
+# 4. Cost Structure: what we spend
+# 5. Lean Canvas: startup version
 
 # MELHORIA:
-# ERRADO: Growth by accident
-# CORRECT: Strategic organic growth
+# ERRADO: No business model clarity
+# CORRECT: Documented business model
 ```
 
-### International Expansion (200)
+### Revenue Models (200)
 
-#### GS002: International Expansion
+#### BMI002: Revenue Models
 ```python
-# SKILL: International Expansion
+# SKILL: Revenue Models
 # Nível: Intermediário → Expert
-# Contexto: Expansão internacional
+# Contexto: Modelos de receita
 
-# ESTRATÉGIAS:
-# 1. Export: low risk entry
-# 2. Licensing: IP monetization
-# 3. Joint Venture: shared risk
-# 4. Wholly Owned: full control
-# 5. Franchise: proven model
-
-# CONSIDERAÇÕES:
-# 1. Market Attractiveness: size, growth
-# 2. Competitive Intensity: rivalry
-# 3. Institutional Distance: cultural, regulatory
-# 4. Resource Commitment: investment
-# 5. Risk Tolerance: uncertainty
-
-# MELHORIA:
-# ERRADO: Copy-paste expansion
-# CORRECT: Adapted international strategy
-```
-
-### Platform Strategy (150)
-
-#### GS003: Platform Strategy
-```python
-# SKILL: Platform Strategy
-# Nível: Intermediário → Expert
-# Contexto: Estratégia de plataforma
+# MODELOS:
+# 1. Subscription: recurring revenue
+# 2. Freemium: free + premium
+# 3. Transaction: per-use fee
+# 4. Advertising: ad-supported
+# 5. Licensing: intellectual property
 
 # CONCEITOS:
-# 1. Network Effects: value increases with users
-# 2. Chicken-and-Egg: bootstrap problem
-# 3. Multi-Sided: different user groups
-# 4. Platform Governance: rules, trust
-# 5. Ecosystem: partners, developers
-
-# MÉTRICAS:
-# 1. GMV: gross merchandise value
-# 2. Take Rate: platform fee
-# 3. Liquidity: matching efficiency
-# 4. Engagement: time spent
-# 5. NPS: satisfaction score
+# 1. Pricing Strategy: value-based
+# 2. Monetization: revenue generation
+# 3. Unit Economics: per-unit profitability
+# 4. LTV: customer lifetime value
+# 5. CAC: customer acquisition cost
 
 # MELHORIA:
-# ERRADO: Linear business model
-# CORRECT: Platform-based strategy
+# ERRADO: Single revenue model
+# CORRECT: Diversified revenue streams
 ```
 
-### Innovation Strategy (100)
+### Platform Business Models (150)
 
-#### GS004: Innovation Strategy
+#### BMI003: Platform Business Models
 ```python
-# SKILL: Innovation Strategy
+# SKILL: Platform Business Models
 # Nível: Intermediário → Expert
-# Contexto: Estratégia de inovação
+# Contexto: Modelos de plataforma
+
+# CONCEITOS:
+# 1. Network Effects: user value
+# 2. Multi-Sided: multiple user groups
+# 3. Ecosystem: partner network
+# 4. Winner-Take-All: market dynamics
+# 5. Platform vs Pipeline: model difference
+
+# EXEMPLOS:
+# 1. Marketplace: Amazon, eBay
+# 2. Social: Facebook, LinkedIn
+# 3. Payment: PayPal, Stripe
+# 4. Ride-Hailing: Uber, Lyft
+# 5. Content: YouTube, Netflix
+
+# MELHORIA:
+# ERRADO: Traditional business only
+# CORRECT: Platform thinking
+```
+
+### Innovation Management (100)
+
+#### BMI004: Innovation Management
+```python
+# SKILL: Innovation Management
+# Nível: Intermediário → Expert
+# Contexto: Gestão da inovação
+
+# CONCEITOS:
+# 1. Pipeline: idea to market
+# 2. Portfolio: innovation mix
+# 3. Culture: innovation mindset
+# 4. Process: structured innovation
+# 5. Metrics: innovation performance
 
 # TIPOS:
 # 1. Incremental: small improvements
 # 2. Radical: breakthrough
-# 3. Disruptive: market-creating
-# 4. Architectural: new combinations
-# 5. Business Model: new value capture
-
-# CONCEITOS:
-# 1. Horizon 1: core business
-# 2. Horizon 2: emerging opportunities
-# 3. Horizon 3: transformative bets
-# 4. Innovation Ambition Matrix: balance
-# 5. Portfolio: manage risk
+# 3. Disruptive: market creation
+# 4. Sustaining: existing market
+# 5. Architectural: new combinations
 
 # MELHORIA:
-# ERRADO: Innovation by chance
-# CORRECT: Strategic innovation portfolio
+# ERRADO: No innovation process
+# CORRECT: Managed innovation
 ```
 
 ---
 
-## 💻 Digital Transformation (1.500)
+## 🔄 Digital Transformation (1.500)
 
 ### Digital Strategy (200)
 
@@ -332,76 +364,76 @@
 # Contexto: Estratégia digital
 
 # CONCEITOS:
-# 1. Digital Maturity: assessment
-# 2. Digital Vision: future state
-# 3. Digital Capabilities: building blocks
-# 4. Digital Roadmap: transformation plan
-# 5. Digital Culture: organizational change
+# 1. Digital Maturity: current state
+# 2. Digital Vision: desired future
+# 3. Roadmap: transformation journey
+# 4. Investment: resource allocation
+# 5. Governance: digital oversight
 
-# ÁREAS:
-# 1. Customer Experience: digital touchpoints
-# 2. Operations: automation, efficiency
-# 3. Business Model: new revenue streams
-# 4. Technology: architecture, platforms
-# 5. Organization: talent, structure
+# COMPONENTES:
+# 1. Customer: digital experience
+# 2. Operations: process automation
+# 3. Business Model: digital revenue
+# 4. Organization: digital culture
+# 5. Technology: digital infrastructure
 
 # MELHORIA:
-# ERRADO: Technology-first approach
-# CORRECT: Business-driven digital strategy
+# ERRADO: No digital strategy
+# CORRECT: Comprehensive digital strategy
 ```
 
-### Digital Business Models (200)
+### Emerging Technologies (200)
 
-#### DT002: Digital Business Models
+#### DT002: Emerging Technologies
 ```python
-# SKILL: Digital Business Models
+# SKILL: Emerging Technologies
 # Nível: Intermediário → Expert
-# Contexto: Modelos de negócio digitais
+# Contexto: Tecnologias emergentes
+
+# TECNOLOGIAS:
+# 1. AI/ML: artificial intelligence
+# 2. Blockchain: distributed ledger
+# 3. IoT: internet of things
+# 4. AR/VR: immersive experiences
+# 5. Quantum: quantum computing
+
+# APLICAÇÕES:
+# 1. Automation: process efficiency
+# 2. Personalization: customer experience
+# 3. Prediction: data-driven decisions
+# 4. Security: threat protection
+# 5. Sustainability: environmental impact
+
+# MELHORIA:
+# ERRADO: Technology lag
+# CORRECT: Technology leadership
+```
+
+### Change Management (150)
+
+#### DT003: Change Management
+```python
+# SKILL: Change Management
+# Nível: Intermediário → Expert
+# Contexto: Gestão de mudanças
 
 # MODELOS:
-# 1. Subscription: recurring revenue
-# 2. Freemium: free + premium
-# 3. Marketplace: platform fees
-# 4. Advertising: attention monetization
-# 5. Data: insights as product
+# 1. Kotter: 8-step process
+# 2. ADKAR: awareness, desire
+# 3. Lewin: unfreeze, change, refreeze
+# 4. McKinsey: 7-S framework
+# 5. Prosci: change management
 
 # CONCEITOS:
-# 1. Digital-native: born digital
-# 2. Digital-enabled: traditional + digital
-# 3. Platform: network effects
-# 4. Ecosystem: partner value
-# 5. API-first: programmable
+# 1. Stakeholder: engagement plan
+# 2. Communication: messaging
+# 3. Training: capability building
+# 4. Resistance: overcoming barriers
+# 5. Reinforcement: sustaining change
 
 # MELHORIA:
-# ERRADO: Traditional model with website
-# CORRECT: Digital-native business model
-```
-
-### Digital Operations (150)
-
-#### DT003: Digital Operations
-```python
-# SKILL: Digital Operations
-# Nível: Intermediário → Expert
-# Contexto: Operações digitais
-
-# CONCEITOS:
-# 1. Automation: RPA, AI
-# 2. Cloud: infrastructure agility
-# 3. Data: analytics-driven decisions
-# 4. Agile: iterative development
-# 5. DevOps: continuous delivery
-
-# MÉTRICAS:
-# 1. Time-to-Market: speed
-# 2. Cost Reduction: efficiency
-# 3. Quality: defect rates
-# 4. Customer Satisfaction: NPS
-# 5. Employee Productivity: output
-
-# MELHORIA:
-# ERRADO: Manual, legacy processes
-# CORRECT: Digitally optimized operations
+# ERRADO: No change management
+# CORRECT: Structured change approach
 ```
 
 ### Digital Culture (100)
@@ -412,329 +444,249 @@
 # Nível: Intermediário → Expert
 # Contexto: Cultura digital
 
-# ELEMENTOS:
-# 1. Experimentation: test-and-learn
-# 2. Collaboration: cross-functional
-# 3. Customer-Centricity: outside-in
+# CONCEITOS:
+# 1. Agility: fast adaptation
+# 2. Innovation: experimentation
+# 3. Collaboration: cross-functional
 # 4. Data-Driven: evidence-based
-# 5. Agile: adaptive, iterative
+# 5. Customer-Centric: outside-in
+
+# INDICADORES:
+# 1. Adoption: tool usage
+# 2. Collaboration: cross-team work
+# 3. Innovation: new ideas
+# 4. Speed: decision velocity
+# 5. Learning: continuous improvement
 
 # MELHORIA:
-# ERRADO: Resistance to change
-# CORRECT: Digital-first mindset
+# ERRADO: Traditional culture
+# CORRECT: Digital-first culture
 ```
 
 ---
 
-## 📋 Strategic Planning (1.000)
+## 🏛️ Corporate Governance (1.500)
 
-### Strategic Planning Process (200)
+### Board Management (200)
 
-#### SP001: Strategic Planning Process
+#### GOV001: Board Management
 ```python
-# SKILL: Strategic Planning Process
+# SKILL: Board Management
 # Nível: Intermediário → Expert
-# Contexto: Processo de planejamento estratégico
-
-# ETAPAS:
-# 1. Assessment: current state analysis
-# 2. Vision: desired future state
-# 3. Strategy: how to get there
-# 4. Goals: measurable objectives
-# 5. Action Plans: specific initiatives
-
-# FERRAMENTAS:
-# 1. SWOT: internal, external analysis
-# 2. PESTEL: macro environment
-# 3. Porter's Five Forces: industry
-# 4. Value Chain: activities
-# 5. Balanced Scorecard: perspectives
-
-# MELHORIA:
-# ERRADO: Annual planning exercise
-# CORRECT: Continuous strategic management
-```
-
-### Goal Setting (150)
-
-#### SP002: Goal Setting
-```python
-# SKILL: Goal Setting
-# Nível: Intermediário → Expert
-# Contexto: Definição de metas
-
-# FRAMEWORKS:
-# 1. OKRs: Objectives, Key Results
-# 2. SMART: Specific, Measurable, etc.
-# 3. BHAG: Big Hairy Audacious Goal
-# 4. 4DX: 4 Disciplines of Execution
-# 5. Hoshin Kanri: policy deployment
+# Contexto: Gestão do conselho
 
 # CONCEITOS:
-# 1. Alignment: top-down, bottom-up
-# 2. Stretch: ambitious but achievable
-# 3. Measurable: quantifiable
-# 4. Time-bound: deadlines
-# 5. Transparent: visible to all
+# 1. Composition: board structure
+# 2. Roles: responsibilities
+# 3. Committees: specialized groups
+# 4. Meetings: effectiveness
+# 5. Evaluation: board performance
+
+# BOAS PRÁTICAS:
+# 1. Independence: unbiased oversight
+# 2. Diversity: varied perspectives
+# 3. Expertise: relevant knowledge
+# 4. Engagement: active participation
+# 5. Succession: leadership planning
 
 # MELHORIA:
-# ERRADO: Vague, unmeasurable goals
-# CORRECT: Rigorous goal-setting framework
+# ERRADO: Ineffective board
+# CORRECT: High-performing board
 ```
 
-### Strategic Communication (100)
+### Risk Management (200)
 
-#### SP003: Strategic Communication
+#### GOV002: Risk Management
 ```python
-# SKILL: Strategic Communication
+# SKILL: Corporate Risk Management
 # Nível: Intermediário → Expert
-# Contexto: Comunicação estratégica
-
-# CONCEITOS:
-# 1. Storytelling: compelling narrative
-# 2. Visualization: charts, infographics
-# 3. Town Halls: company-wide updates
-# 4. Dashboards: real-time tracking
-# 5. Feedback Loops: two-way communication
-
-# MELHORIA:
-# ERRADO: Strategy in a binder
-# CORRECT: Living, communicated strategy
-```
-
----
-
-## 💡 Business Model Innovation (800)
-
-### Business Model Design (200)
-
-#### BMI001: Business Model Design
-```python
-# SKILL: Business Model Design
-# Nível: Intermediário → Expert
-# Contexto: Design de modelo de negócio
-
-# FRAMEWORKS:
-# 1. Business Model Canvas: 9 blocks
-# 2. Lean Canvas: startup-focused
-# 3. Value Proposition Design: customer
-# 4. Platform Canvas: ecosystem
-# 5. Subscription Canvas: recurring
-
-# CONCEITOS:
-# 1. Value Creation: what we offer
-# 2. Value Capture: how we monetize
-# 3. Value Delivery: channels
-# 4. Value Network: partners
-# 5. Value Proposition: why us
-
-# MELHORIA:
-# ERRADO: Copying competitors
-# CORRECT: Innovative business model design
-```
-
-### Subscription Models (150)
-
-#### BMI002: Subscription Models
-```python
-# SKILL: Subscription Models
-# Nível: Intermediário → Expert
-# Contexto: Modelos de assinatura
-
-# TIPOS:
-# 1. Access: content, services
-# 2. Replenishment: consumables
-# 3. Curation: personalized selection
-# 4. Freemium: free + premium tiers
-# 5. Usage-Based: consumption
-
-# MÉTRICAS:
-# 1. MRR: monthly recurring revenue
-# 2. Churn: cancellation rate
-# 3. LTV: lifetime value
-# 4. CAC: acquisition cost
-# 5. Payback: recovery period
-
-# MELHORIA:
-# ERRADO: One-time sales mindset
-# CORRECT: Subscription-optimized business
-```
-
-### Platform Business Models (100)
-
-#### BMI003: Platform Business Models
-```python
-# SKILL: Platform Business Models
-# Nível: Intermediário → Expert
-# Contexto: Modelos de negócio de plataforma
-
-# CONCEITOS:
-# 1. Network Effects: value grows with users
-# 2. Multi-Sided Markets: different groups
-# 3. Platform Governance: rules, trust
-# 4. Ecosystem: partners, developers
-# 5. API Economy: programmable
-
-# MELHORIA:
-# ERRADO: Linear value chain
-# CORRECT: Platform-based ecosystem
-```
-
----
-
-## 🔍 Strategic Analysis (800)
-
-### Environmental Scanning (200)
-
-#### SA001: Environmental Scanning
-```python
-# SKILL: Environmental Scanning
-# Nível: Intermediário → Expert
-# Contexto: Varredura ambiental
-
-# FERRAMENTAS:
-# 1. PESTEL: macro factors
-# 2. Industry Analysis: competitive forces
-# 3. Trend Analysis: emerging shifts
-# 4. Scenario Planning: futures
-# 5. War Gaming: competitive simulation
-
-# CONCEITOS:
-# 1. Signal Detection: weak signals
-# 2. Trend Mapping: patterns
-# 3. Impact Assessment: significance
-# 4. Probability: likelihood
-# 5. Preparedness: response planning
-
-# MELHORIA:
-# ERRADO: Reactive to environment
-# CORRECT: Proactive environmental scanning
-```
-
-### Scenario Planning (150)
-
-#### SA002: Scenario Planning
-```python
-# SKILL: Scenario Planning
-# Nível: Intermediário → Expert
-# Contexto: Planejamento de cenários
+# Contexto: Gestão de riscos corporativos
 
 # PROCESSO:
-# 1. Focal Question: key uncertainty
-# 2. Driving Forces: key factors
-# 3. Critical Uncertainties: highest impact
-# 4. Scenario Logic: 2x2 matrix
-# 5. Story Development: narratives
+# 1. Identification: finding risks
+# 2. Assessment: evaluating impact
+# 3. Mitigation: reducing risk
+# 4. Monitoring: ongoing oversight
+# 5. Reporting: stakeholder communication
+
+# TIPOS:
+# 1. Strategic: market, competition
+# 2. Financial: credit, liquidity
+# 3. Operational: process, people
+# 4. Compliance: regulatory
+# 5. Reputation: brand, public image
 
 # MELHORIA:
-# ERRADO: Single forecast
-# CORRECT: Multiple plausible futures
+# ERRADO: No risk management
+# CORRECT: Enterprise risk management
 ```
 
-### Competitive Intelligence (100)
+### Compliance Framework (150)
 
-#### SA003: Competitive Intelligence
+#### GOV003: Compliance Framework
 ```python
-# SKILL: Competitive Intelligence
+# SKILL: Compliance Framework
 # Nível: Intermediário → Expert
-# Contexto: Inteligência competitiva
+# Contexto: Framework de conformidade
 
-# FONTES:
-# 1. Public: reports, filings
-# 2. Media: news, press releases
-# 3. Patents: innovation direction
-# 4. Job Postings: strategy signals
-# 5. Social Media: customer sentiment
+# COMPONENTES:
+# 1. Policies: rules and standards
+# 2. Procedures: how to comply
+# 3. Training: awareness building
+# 4. Monitoring: ongoing oversight
+# 5. Enforcement: consequences
+
+# REGULATIONS:
+# 1. SOX: financial reporting
+# 2. FCPA: anti-corruption
+# 3. GDPR: data protection
+# 4. AML: anti-money laundering
+# 5. ESG: environmental, social
 
 # MELHORIA:
-# ERRADO: No competitive intelligence
-# CORRECT: Systematic CI program
+# ERRADO: No compliance program
+# CORRECT: Comprehensive compliance
+```
+
+### Stakeholder Management (100)
+
+#### GOV004: Stakeholder Management
+```python
+# SKILL: Stakeholder Management
+# Nível: Intermediário → Expert
+# Contexto: Gestão de stakeholders
+
+# PROCESSO:
+# 1. Identify: who matters
+# 2. Analyze: influence, interest
+# 3. Engage: communication plan
+# 4. Monitor: ongoing relationship
+# 5. Adjust: responsive management
+
+# CONCEITOS:
+# 1. Power/Interest Grid: prioritization
+# 2. Communication: tailored messaging
+# 3. Engagement: participation level
+# 4. Influence: shaping outcomes
+# 5. Trust: relationship building
+
+# MELHORIA:
+# ERRADO: No stakeholder strategy
+# CORRECT: Systematic stakeholder management
 ```
 
 ---
 
-## ⚡ Strategy Execution (900)
+## 🤝 Mergers & Acquisitions (1.000)
 
-### Strategic Initiatives (200)
+### M&A Strategy (200)
 
-#### SE001: Strategic Initiatives
+#### MA001: M&A Strategy
 ```python
-# SKILL: Strategic Initiatives
+# SKILL: M&A Strategy
 # Nível: Intermediário → Expert
-# Contexto: Iniciativas estratégicas
+# Contexto: Estratégia de M&A
 
 # CONCEITOS:
-# 1. Portfolio: balanced set
-# 2. Prioritization: resource allocation
-# 3. Governance: oversight, decisions
-# 4. Tracking: progress measurement
-# 5. Benefits: value realization
+# 1. Strategic Fit: alignment
+# 2. Valuation: worth determination
+# 3. Due Diligence: investigation
+# 4. Negotiation: deal terms
+# 5. Integration: post-merger
+
+# TIPOS:
+# 1. Horizontal: same industry
+# 2. Vertical: supply chain
+# 3. Conglomerate: unrelated
+# 4. Market Extension: new markets
+# 5. Product Extension: new products
 
 # MELHORIA:
-# ERRADO: Strategy without execution
-# CORRECT: Disciplined initiative management
+# ERRADO: No M&A capability
+# CORRECT: Strategic M&A execution
 ```
 
-### Strategic Alignment (150)
+### Valuation Methods (200)
 
-#### SE002: Strategic Alignment
+#### MA002: Valuation Methods
 ```python
-# SKILL: Strategic Alignment
+# SKILL: Valuation Methods
 # Nível: Intermediário → Expert
-# Contexto: Alinhamento estratégico
+# Contexto: Métodos de valuation
+
+# MÉTODOS:
+# 1. DCF: discounted cash flow
+# 2. Comparable: market comparison
+# 3. Precedent: past transactions
+# 4. Asset-Based: net asset value
+# 5. EBITDA Multiple: earnings-based
 
 # CONCEITOS:
-# 1. Vertical: top-down cascade
-# 2. Horizontal: cross-functional
-# 3. OKRs: cascading objectives
-# 4. Incentives: compensation alignment
-# 5. Communication: shared understanding
+# 1. Enterprise Value: total value
+# 2. Equity Value: shareholder value
+# 3. Synergies: combined value
+# 4. Control Premium: acquisition premium
+# 5. Minority Discount: lack of control
 
 # MELHORIA:
-# ERRADO: Strategy disconnected from operations
-# CORRECT: Fully aligned organization
+# ERRADO: No valuation skills
+# CORRECT: Professional valuation
 ```
 
-### Performance Management (100)
+### Post-Merger Integration (150)
 
-#### SE003: Performance Management
+#### MA003: Post-Merger Integration
 ```python
-# SKILL: Performance Management
+# SKILL: Post-Merger Integration
 # Nível: Intermediário → Expert
-# Contexto: Gestão de desempenho
+# Contexto: Integração pós-fusão
 
 # CONCEITOS:
-# 1. KPIs: key performance indicators
-# 2. Balanced Scorecard: multi-perspective
-# 3. Dashboards: real-time visibility
-# 4. Reviews: regular assessment
-# 5. Accountability: ownership
+# 1. Day 1: immediate actions
+# 2. 100-Day Plan: quick wins
+# 3. Culture: organizational blend
+# 4. Systems: IT integration
+# 5. People: talent retention
+
+# DESAFIOS:
+# 1. Culture Clash: different ways
+# 2. Redundancy: job overlaps
+# 3. Systems: technology gaps
+# 4. Communication: confusion
+# 5. Morale: employee concerns
 
 # MELHORIA:
-# ERRADO: No performance tracking
-# CORRECT: Rigorous performance management
+# ERRADO: Failed integration
+# CORRECT: Smooth post-merger integration
 ```
 
-### Change Management (100)
+### Due Diligence (100)
 
-#### SE004: Change Management
+#### MA004: Due Diligence
 ```python
-# SKILL: Change Management
+# SKILL: Due Diligence
 # Nível: Intermediário → Expert
-# Contexto: Gestão da mudança
+# Contexto: Due diligence
 
-# MODELOS:
-# 1. Kotter: 8-step process
-# 2. ADKAR: individual change
-# 3. McKinsey: 7-S framework
-# 4. Bridges: transition model
-# 5. Prosci: organizational change
+# AREAS:
+# 1. Financial: accounting, tax
+# 2. Legal: contracts, litigation
+# 3. Commercial: market, customers
+# 4. Operational: processes, assets
+# 5. HR: employees, benefits
+
+# PROCESSO:
+# 1. Planning: scope definition
+# 2. Data Room: document review
+# 3. Analysis: risk assessment
+# 4. Report: findings summary
+# 5. Decision: go/no-go
 
 # MELHORIA:
-# ERRADO: Mandate and hope
-# CORRECT: Led, managed change
+# ERRADO: No due diligence
+# CORRECT: Thorough due diligence
 ```
 
 ---
 
-*Strategy Expansion v1.0 — Setembro 2026*
+*Business Strategy Expansion v1.0 — Setembro 2026*

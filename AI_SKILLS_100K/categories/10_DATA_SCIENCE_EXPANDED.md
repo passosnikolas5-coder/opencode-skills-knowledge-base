@@ -1,6 +1,6 @@
 # 📊 Data Science - Expansão 10K Skills
 
-> **Expansão detalhada: 10.000+ skills adicionais de data science**
+> **Expansão detalhada: 10.000+ skills adicionais de ciência de dados**
 
 ---
 
@@ -8,147 +8,128 @@
 
 | Subcategoria | Skills Adicionais | Status |
 |--------------|-------------------|--------|
-| Python for DS | 1.500 | ✅ |
-| Machine Learning | 1.500 | ✅ |
-| Deep Learning | 1.000 | ✅ |
-| NLP for DS | 1.000 | ✅ |
-| Computer Vision for DS | 800 | ✅ |
-| Feature Engineering | 1.000 | ✅ |
-| Model Deployment | 1.000 | ✅ |
-| Data Visualization | 700 | ✅ |
-| Statistical Modeling | 500 | ✅ |
+| Data Analysis | 2.000 | ✅ |
+| Machine Learning | 2.000 | ✅ |
+| Data Visualization | 2.000 | ✅ |
+| Statistical Modeling | 1.500 | ✅ |
+| Big Data Technologies | 1.500 | ✅ |
+| Data Ethics & Governance | 1.000 | ✅ |
 
 ---
 
-## 🐍 Python for Data Science (1.500)
+## 📈 Data Analysis (2.000)
 
-### NumPy Mastery (200)
+### Exploratory Data Analysis (200)
 
-#### DS001: NumPy Mastery
+#### DA001: Exploratory Data Analysis
 ```python
-# SKILL: NumPy Mastery
-# Nível: Intermediário → Expert
-# Contexto: Domínio NumPy
+# SKILL: Exploratory Data Analysis
+# Nível: Básico → Expert
+# Contexto: Análise exploratória de dados
 
 # CONCEITOS:
-# 1. Arrays: n-dimensional arrays
-# 2. Broadcasting: array operations
-# 3. Indexing: slicing, masking
-# 4. Linear Algebra: dot, eigenvalues
-# 5. Random: distributions, sampling
+# 1. Distribution: data spread
+# 2. Central Tendency: mean, median
+# 3. Variability: std dev, variance
+# 4. Correlation: relationships
+# 5. Outliers: unusual observations
+
+# TÉCNICAS:
+# 1. Summary Statistics: numerical summary
+# 2. Histograms: distribution visualization
+# 3. Box Plots: outlier detection
+# 4. Scatter Plots: relationship visualization
+# 5. Heatmaps: correlation matrices
 
 # MELHORIA:
-# ERRADO: Lists for numerical computation
-# CORRECT: Optimized NumPy operations
+# ERRADO: No EDA process
+# CORRECT: Systematic EDA
 ```
 
-### Pandas Mastery (200)
+### Data Cleaning (200)
 
-#### DS002: Pandas Mastery
+#### DA002: Data Cleaning
 ```python
-# SKILL: Pandas Mastery
+# SKILL: Data Cleaning
 # Nível: Intermediário → Expert
-# Contexto: Domínio Pandas
+# Contexto: Limpeza de dados
 
-# CONCEITOS:
-# 1. DataFrames: tabular data
-# 2. Indexing: loc, iloc
-# 3. GroupBy: aggregation
-# 4. Merge/Join: combining data
-# 5. Time Series: date handling
+# PROBLEMAS:
+# 1. Missing Values: NaN, null
+# 2. Duplicates: repeated records
+# 3. Inconsistencies: conflicting data
+# 4. Outliers: extreme values
+# 5. Format: standardization
+
+# TÉCNICAS:
+# 1. Imputation: filling missing
+# 2. Deletion: removing records
+# 3. Transformation: standardizing
+# 4. Validation: rule checking
+# 5. Normalization: scaling
 
 # MELHORIA:
-# ERRADO: Loops over DataFrames
-# CORRECT: Vectorized Pandas operations
+# ERRADO: Dirty data usage
+# CORRECT: Clean, validated data
 ```
 
-### Data Wrangling (150)
+### Feature Engineering (150)
 
-#### DS003: Data Wrangling
+#### DA003: Feature Engineering
+```python
+# SKILL: Feature Engineering
+# Nível: Intermediário → Expert
+# Contexto: Engenharia de features
+
+# TÉCNICAS:
+# 1. Creation: new features
+# 2. Transformation: scaling, encoding
+# 3. Selection: important features
+# 4. Extraction: dimensionality reduction
+# 5. Aggregation: summary features
+
+# MÉTODOS:
+# 1. One-Hot Encoding: categorical
+# 2. Label Encoding: ordinal
+# 3. Scaling: normalization
+# 4. Polynomial: interaction terms
+# 5. Binning: continuous to categorical
+
+# MELHORIA:
+# ERRADO: Raw features only
+# CORRECT: Engineered features
+```
+
+### Data Wrangling (100)
+
+#### DA004: Data Wrangling
 ```python
 # SKILL: Data Wrangling
 # Nível: Intermediário → Expert
-# Contexto: Limpeza e transformação de dados
-
-# TÉCNICAS:
-# 1. Missing Values: fill, drop, impute
-# 2. Duplicates: detection, removal
-# 3. Outliers: detection, treatment
-# 4. Type Conversion: datetime, categorical
-# 5. Normalization: scaling, encoding
-
-# MELHORIA:
-# ERRADO: Messy data analysis
-# CORRECT: Clean, analysis-ready data
-```
-
-### Data Validation (100)
-
-#### DS004: Data Validation
-```python
-# SKILL: Data Validation
-# Nível: Intermediário → Expert
-# Contexto: Validação de dados
-
-# FERRAMENTAS:
-# 1. Great Expectations: data quality
-# 2. Pandera: DataFrame validation
-# 3. Pydantic: data validation
-# 4. SQLAlchemy: database validation
-# 5. Custom: business rules
-
-# MELHORIA:
-# ERRADO: No data validation
-# CORRECT: Comprehensive data quality checks
-```
-
-### Feature Stores (150)
-
-#### DS005: Feature Stores
-```python
-# SKILL: Feature Stores
-# Nível: Intermediário → Expert
-# Contexto: Feature Stores
+# Contexto: Tratamento de dados
 
 # CONCEITOS:
-# 1. Offline Store: batch features
-# 2. Online Store: real-time features
-# 3. Feature Registry: metadata
-# 4. Feature Serving: API access
-# 5. Feature Monitoring: drift detection
+# 1. Merging: combining datasets
+# 2. Reshaping: pivot, melt
+# 3. Grouping: aggregation
+# 4. Filtering: subsetting
+# 5. Sorting: ordering
 
 # FERRAMENTAS:
-# Feast, Tecton, Hopsworks
-# AWS SageMaker Feature Store
+# 1. Pandas: Python data manipulation
+# 2. dplyr: R data manipulation
+# 3. SQL: database queries
+# 4. Excel: spreadsheet operations
+# 5. OpenRefine: data cleaning
 
 # MELHORIA:
-# ERRADO: Feature engineering without storage
-# CORRECT: Centralized feature management
-```
-
-### Data Pipelines (100)
-
-#### DS006: Data Pipelines
-```python
-# SKILL: Data Pipelines
-# Nível: Intermediário → Expert
-# Contexto: Pipelines de dados
-
-# FERRAMENTAS:
-# 1. Apache Airflow: orchestration
-# 2. Prefect: modern workflow
-# 3. Dagster: data orchestration
-# 4. Apache Spark: big data
-# 5. dbt: data transformation
-
-# MELHORIA:
-# ERRADO: Manual data processing
-# CORRECT: Automated data pipelines
+# ERRADO: Manual data manipulation
+# CORRECT: Automated data wrangling
 ```
 
 ---
 
-## 🤖 Machine Learning (1.500)
+## 🤖 Machine Learning (2.000)
 
 ### Supervised Learning (200)
 
@@ -159,15 +140,22 @@
 # Contexto: Aprendizado supervisionado
 
 # ALGORITMOS:
-# 1. Linear Regression: continuous targets
+# 1. Linear Regression: continuous output
 # 2. Logistic Regression: classification
-# 3. Decision Trees: interpretable
-# 4. Random Forest: ensemble
-# 5. Gradient Boosting: XGBoost, LightGBM
+# 3. Decision Trees: rule-based
+# 4. Random Forest: ensemble trees
+# 5. SVM: support vector machines
+
+# CONCEITOS:
+# 1. Training: model fitting
+# 2. Validation: model evaluation
+# 3. Testing: final evaluation
+# 4. Overfitting: too complex
+# 5. Underfitting: too simple
 
 # MELHORIA:
-# ERRADO: Single algorithm approach
-# CORRECT: Algorithm selection by problem
+# ERRADO: Single algorithm only
+# CORRECT: Algorithm comparison
 ```
 
 ### Unsupervised Learning (200)
@@ -181,671 +169,522 @@
 # ALGORITMOS:
 # 1. K-Means: clustering
 # 2. DBSCAN: density-based clustering
-# 3. PCA: dimensionality reduction
-# 4. t-SNE: visualization
-# 5. UMAP: manifold learning
+# 3. Hierarchical: tree clustering
+# 4. PCA: dimensionality reduction
+# 5. t-SNE: visualization
+
+# CONCEITOS:
+# 1. Clustering: grouping data
+# 2. Association: rule learning
+# 3. Dimensionality: feature reduction
+# 4. Anomaly: outlier detection
+# 5. Topic Modeling: text analysis
 
 # MELHORIA:
 # ERRADO: No unsupervised learning
-# CORRECT: Appropriate unsupervised methods
+# CORRECT: Comprehensive ML toolkit
 ```
 
-### Model Selection (150)
+### Deep Learning (150)
 
-#### ML003: Model Selection
+#### ML003: Deep Learning
 ```python
-# SKILL: Model Selection
+# SKILL: Deep Learning
 # Nível: Intermediário → Expert
-# Contexto: Seleção de modelos
+# Contexto: Aprendizado profundo
+
+# REDES:
+# 1. Neural Networks: basic architecture
+# 2. CNN: image processing
+# 3. RNN: sequence data
+# 4. LSTM: long sequences
+# 5. Transformers: attention mechanism
+
+# FRAMEWORKS:
+# 1. TensorFlow: Google framework
+# 2. PyTorch: Facebook framework
+# 3. Keras: high-level API
+# 4. JAX: Google research
+# 5. FastAI: practical deep learning
+
+# MELHORIA:
+# ERRADO: No deep learning
+# CORRECT: Deep learning expertise
+```
+
+### Model Deployment (100)
+
+#### ML004: Model Deployment
+```python
+# SKILL: Model Deployment
+# Nível: Intermediário → Expert
+# Contexto: Implantação de modelos
 
 # CONCEITOS:
-# 1. Cross-Validation: k-fold
-# 2. Hyperparameter Tuning: Grid, Random, Bayesian
-# 3. Ensemble: combining models
-# 4. Model Comparison: metrics
-# 5. Bias-Variance Tradeoff
+# 1. Serialization: model saving
+# 2. API: model serving
+# 3. Containerization: Docker
+# 4. Scaling: load balancing
+# 5. Monitoring: model drift
+
+# FERRAMENTAS:
+# 1. Flask: web API
+# 2. FastAPI: modern API
+# 3. Docker: containerization
+# 4. Kubernetes: orchestration
+# 5. MLflow: experiment tracking
 
 # MELHORIA:
-# ERRADO: Default hyperparameters
-# CORRECT: Optimized model selection
-```
-
-### Model Evaluation (150)
-
-#### ML004: Model Evaluation
-```python
-# SKILL: Model Evaluation
-# Nível: Intermediário → Expert
-# Contexto: Avaliação de modelos
-
-# MÉTRICAS:
-# Classification: Accuracy, F1, AUC-ROC
-# Regression: MSE, MAE, R²
-# Ranking: NDCG, MAP
-
-# TÉCNICAS:
-# 1. Confusion Matrix: detailed view
-# 2. ROC Curve: threshold analysis
-# 3. Learning Curve: data needs
-# 4. Residual Analysis: error patterns
-
-# MELHORIA:
-# ERRADO: Single metric evaluation
-# CORRECT: Comprehensive model evaluation
-```
-
-### Feature Selection (100)
-
-#### ML005: Feature Selection
-```python
-# SKILL: Feature Selection
-# Nível: Intermediário → Expert
-# Contexto: Seleção de features
-
-# MÉTODOS:
-# 1. Filter: statistical tests
-# 2. Wrapper: recursive elimination
-# 3. Embedded: L1 regularization
-# 4. Importance: tree-based
-# 5. PCA: dimensionality reduction
-
-# MELHORIA:
-# ERRADO: All features included
-# CORRECT: Selected, relevant features
+# ERRADO: No deployment strategy
+# CORRECT: Production ML systems
 ```
 
 ---
 
-## 🧠 Deep Learning (1.000)
+## 📊 Data Visualization (2.000)
 
-### Neural Networks Fundamentals (200)
+### Visualization Principles (200)
 
-#### DL001: Neural Networks Fundamentals
+#### VIZ001: Visualization Principles
 ```python
-# SKILL: Neural Networks Fundamentals
-# Nível: Intermediário → Expert
-# Contexto: Fundamentos de redes neurais
+# SKILL: Visualization Principles
+# Nível: Básico → Expert
+# Contexto: Princípios de visualização
 
 # CONCEITOS:
-# 1. Neurons: activation functions
-# 2. Layers: dense, convolutional
-# 3. Backpropagation: gradient descent
-# 4. Optimizers: SGD, Adam
-# 5. Regularization: dropout, batch norm
-
-# MELHORIA:
-# ERRADO: No deep learning basics
-# CORRECT: Strong DL foundations
-```
-
-### CNNs (150)
-
-#### DL002: Convolutional Neural Networks
-```python
-# SKILL: Convolutional Neural Networks
-# Nível: Intermediário → Expert
-# Contexto: Redes neurais convolucionais
-
-# ARQUITETURAS:
-# 1. LeNet: pioneer
-# 2. AlexNet: deep CNN
-# 3. VGG: very deep
-# 4. ResNet: residual connections
-# 5. EfficientNet: compound scaling
-
-# MELHORIA:
-# ERRADO: CNN from scratch
-# CORRECT: Transfer learning with CNNs
-```
-
-### RNNs & Transformers (150)
-
-#### DL003: RNNs & Transformers
-```python
-# SKILL: RNNs & Transformers
-# Nível: Intermediário → Expert
-# Contexto: RNNs e Transformers
-
-# ARQUITETURAS:
-# 1. LSTM: long short-term memory
-# 2. GRU: gated recurrent unit
-# 3. Transformer: attention mechanism
-# 4. BERT: bidirectional encoder
-# 5. GPT: generative pre-trained
-
-# MELHORIA:
-# ERRADO: RNNs for everything
-# CORRECT: Transformers for sequence tasks
-```
-
-### Generative Models (150)
-
-#### DL004: Generative Models
-```python
-# SKILL: Generative Models
-# Nível: Intermediário → Expert
-# Contexto: Modelos generativos
+# 1. Clarity: easy understanding
+# 2. Accuracy: truthful representation
+# 3. Efficiency: minimal cognitive load
+# 4. Aesthetics: visual appeal
+# 5. Accessibility: inclusive design
 
 # TIPOS:
-# 1. GANs: generative adversarial
-# 2. VAEs: variational autoencoders
-# 3. Diffusion: denoising models
-# 4. Flow: normalizing flows
-# 5. Autoregressive: PixelCNN
+# 1. Comparison: bar, line charts
+# 2. Distribution: histogram, density
+# 3. Relationship: scatter, bubble
+# 4. Composition: pie, stacked bar
+# 5. Geographic: maps, choropleth
 
 # MELHORIA:
-# ERRADO: No generative models
-# CORRECT: Appropriate generative approach
+# ERRADO: Chart soup
+# CORRECT: Purposeful visualization
 ```
 
-### Optimization Techniques (100)
+### Interactive Visualization (200)
 
-#### DL005: Deep Learning Optimization
-```python
-# SKILL: Deep Learning Optimization
-# Nível: Intermediário → Expert
-# Contexto: Otimização de deep learning
-
-# TÉCNICAS:
-# 1. Learning Rate: schedules, warmup
-# 2. Batch Size: large batch training
-# 3. Mixed Precision: FP16, BF16
-# 4. Gradient Accumulation: memory efficiency
-# 5. Distributed Training: multi-GPU
-
-# MELHORIA:
-# ERRADO: Default training settings
-# CORRECT: Optimized training pipeline
-```
-
----
-
-## 📝 NLP for Data Science (1.000)
-
-### Text Preprocessing (150)
-
-#### NLPDS001: Text Preprocessing
-```python
-# SKILL: Text Preprocessing
-# Nível: Intermediário → Expert
-# Contexto: Pré-processamento de texto
-
-# TÉCNICAS:
-# 1. Tokenization: word, subword
-# 2. Stop Words: removal
-# 3. Stemming/Lemmatization: normalization
-# 4. Lowercasing: case normalization
-# 5. Special Characters: removal
-
-# FERRAMENTAS:
-# NLTK, spaCy, Hugging Face Tokenizers
-
-# MELHORIA:
-# ERRADO: Raw text processing
-# CORRECT: Proper text preprocessing
-```
-
-### Word Embeddings (150)
-
-#### NLPDS002: Word Embeddings
-```python
-# SKILL: Word Embeddings
-# Nível: Intermediário → Expert
-# Contexto: Word Embeddings
-
-# MODELOS:
-# 1. Word2Vec: skip-gram, CBOW
-# 2. GloVe: global vectors
-# 3. FastText: subword embeddings
-# 4. BERT: contextual embeddings
-# 5. Sentence Transformers: sentence embeddings
-
-# MELHORIA:
-# ERRADO: One-hot encoding
-# CORRECT: Dense word embeddings
-```
-
-### Topic Modeling (100)
-
-#### NLPDS003: Topic Modeling
-```python
-# SKILL: Topic Modeling
-# Nível: Intermediário → Expert
-# Contexto: Modelagem de tópicos
-
-# ALGORITMOS:
-# 1. LDA: Latent Dirichlet Allocation
-# 2. NMF: Non-negative Matrix Factorization
-# 3. BERTopic: neural topic modeling
-# 4. Top2Vec: document embeddings
-# 5. CTM: contextualized topic models
-
-# MELHORIA:
-# ERRADO: No topic discovery
-# CORRECT: Systematic topic modeling
-```
-
-### Sentiment Analysis (100)
-
-#### NLPDS004: Sentiment Analysis
-```python
-# SKILL: Sentiment Analysis
-# Nível: Intermediário → Expert
-# Contexto: Análise de sentimento
-
-# ABORDAGENS:
-# 1. Lexicon: dictionary-based
-# 2. ML: supervised classification
-# 3. Deep Learning: LSTM, Transformer
-# 4. Aspect-Based: fine-grained
-# 5. Multilingual: cross-language
-
-# MELHORIA:
-# ERRADO: Simple positive/negative
-# CORRECT: Nuanced sentiment analysis
-```
-
-### Text Classification (100)
-
-#### NLPDS005: Text Classification
-```python
-# SKILL: Text Classification
-# Nível: Intermediário → Expert
-# Contexto: Classificação de texto
-
-# MÉTODOS:
-# 1. Traditional: TF-IDF + SVM
-# 2. Neural: CNN, LSTM
-# 3. Transformer: BERT fine-tuning
-# 4. Zero-Shot: no labeled data
-# 5. Few-Shot: minimal labels
-
-# MELHORIA:
-# ERRADO: Manual text classification
-# CORRECT: Automated text classification
-```
-
----
-
-## 👁️ Computer Vision for DS (800)
-
-### Image Preprocessing (150)
-
-#### CVDS001: Image Preprocessing
-```python
-# SKILL: Image Preprocessing
-# Nível: Intermediário → Expert
-# Contexto: Pré-processamento de imagens
-
-# TÉCNICAS:
-# 1. Resizing: standard dimensions
-# 2. Normalization: pixel scaling
-# 3. Augmentation: rotation, flip
-# 4. Color Space: RGB, HSV
-# 5. Denoising: filter-based
-
-# MELHORIA:
-# ERRADO: No image preprocessing
-# CORRECT: Proper image preparation
-```
-
-### Image Classification (150)
-
-#### CVDS002: Image Classification
-```python
-# SKILL: Image Classification
-# Nível: Intermediário → Expert
-# Contexto: Classificação de imagens
-
-# ABORDAGENS:
-# 1. Transfer Learning: pre-trained models
-# 2. Fine-Tuning: domain adaptation
-# 3. Feature Extraction: fixed features
-# 4. Ensemble: model combination
-# 5. Self-Supervised: contrastive learning
-
-# MELHORIA:
-# ERRADO: Training from scratch
-# CORRECT: Transfer learning approach
-```
-
-### Object Detection (100)
-
-#### CVDS003: Object Detection
-```python
-# SKILL: Object Detection
-# Nível: Intermediário → Expert
-# Contexto: Detecção de objetos
-
-# MODELOS:
-# 1. YOLO: real-time detection
-# 2. SSD: single shot detector
-# 3. Faster R-CNN: two-stage
-# 4. DETR: end-to-end transformer
-# 5. EfficientDet: scalable
-
-# MELHORIA:
-# ERRADO: Manual object detection
-# CORRECT: Automated object detection
-```
-
-### Semantic Segmentation (100)
-
-#### CVDS004: Semantic Segmentation
-```python
-# SKILL: Semantic Segmentation
-# Nível: Intermediário → Expert
-# Contexto: Segmentação semântica
-
-# MODELOS:
-# 1. U-Net: biomedical
-# 2. DeepLab: atrous convolution
-# 3. Mask R-CNN: instance segmentation
-# 4. SegFormer: transformer-based
-# 5. SAM: segment anything
-
-# MELHORIA:
-# ERRADO: Pixel-wise classification
-# CORRECT: Context-aware segmentation
-```
-
-### Video Analysis (100)
-
-#### CVDS005: Video Analysis
-```python
-# SKILL: Video Analysis
-# Nível: Intermediário → Expert
-# Contexto: Análise de vídeo
-
-# TAREFAS:
-# 1. Action Recognition: temporal modeling
-# 2. Object Tracking: multi-object
-# 3. Video Classification: clip-level
-# 4. Anomaly Detection: unusual events
-# 5. Video Summarization: key frames
-
-# MELHORIA:
-# ERRADO: Frame-by-frame analysis
-# CORRECT: Temporal video understanding
-```
-
----
-
-## 🔧 Feature Engineering (1.000)
-
-### Numerical Features (200)
-
-#### FE001: Numerical Feature Engineering
-```python
-# SKILL: Numerical Feature Engineering
-# Nível: Intermediário → Expert
-# Contexto: Engenharia de features numéricas
-
-# TÉCNICAS:
-# 1. Scaling: MinMax, Standard, Robust
-# 2. Transformation: log, power, Box-Cox
-# 3. Binning: discretization
-# 4. Interaction: polynomial features
-# 5. Aggregation: statistical features
-
-# MELHORIA:
-# ERRADO: Raw numerical features
-# CORRECT: Engineered numerical features
-```
-
-### Categorical Features (150)
-
-#### FE002: Categorical Feature Engineering
-```python
-# SKILL: Categorical Feature Engineering
-# Nível: Intermediário → Expert
-# Contexto: Engenharia de features categóricas
-
-# TÉCNICAS:
-# 1. One-Hot: binary encoding
-# 2. Label: ordinal encoding
-# 3. Target: mean encoding
-# 4. Frequency: count encoding
-# 5. Embedding: learned representations
-
-# MELHORIA:
-# ERRADO: Label encoding for all
-# CORRECT: Appropriate encoding method
-```
-
-### Text Features (150)
-
-#### FE003: Text Feature Engineering
-```python
-# SKILL: Text Feature Engineering
-# Nível: Intermediário → Expert
-# Contexto: Engenharia de features de texto
-
-# TÉCNICAS:
-# 1. Bag-of-Words: word counts
-# 2. TF-IDF: term frequency
-# 3. N-grams: word sequences
-# 4. Word2Vec: word embeddings
-# 5. BERT: contextual embeddings
-
-# MELHORIA:
-# ERRADO: Raw text features
-# CORRECT: Rich text representations
-```
-
-### Time Series Features (100)
-
-#### FE004: Time Series Feature Engineering
-```python
-# SKILL: Time Series Feature Engineering
-# Nível: Intermediário → Expert
-# Contexto: Engenharia de features de séries temporais
-
-# TÉCNICAS:
-# 1. Lag Features: previous values
-# 2. Rolling: moving statistics
-# 3. Expanding: cumulative statistics
-# 4. Date: day, month, year
-# 5. Fourier: periodic patterns
-
-# MELHORIA:
-# ERRADO: No time series features
-# CORRECT: Rich temporal features
-```
-
-### Feature Selection (100)
-
-#### FE005: Feature Selection
-```python
-# SKILL: Feature Selection
-# Nível: Intermediário → Expert
-# Contexto: Seleção de features
-
-# MÉTODOS:
-# 1. Filter: statistical tests
-# 2. Wrapper: recursive elimination
-# 3. Embedded: L1 regularization
-# 4. Importance: tree-based
-# 5. PCA: dimensionality reduction
-
-# MELHORIA:
-# ERRADO: All features included
-# CORRECT: Selected, relevant features
-```
-
----
-
-## 🚀 Model Deployment (1.000)
-
-### Model Serving (200)
-
-#### MD001: Model Serving
-```python
-# SKILL: Model Serving
-# Nível: Intermediário → Expert
-# Contexto: Serviço de modelos
-
-# OPÇÕES:
-# 1. REST API: Flask, FastAPI
-# 2. gRPC: high-performance
-# 3. Batch: scheduled inference
-# 4. Edge: ONNX, TensorRT
-# 5. Serverless: Lambda, Cloud Functions
-
-# MELHORIA:
-# ERRADO: Manual model deployment
-# CORRECT: Automated model serving
-```
-
-### Model Monitoring (150)
-
-#### MD002: Model Monitoring
-```python
-# SKILL: Model Monitoring
-# Nível: Intermediário → Expert
-# Contexto: Monitoramento de modelos
-
-# MÉTRICAS:
-# 1. Data Drift: input distribution
-# 2. Model Drift: performance decay
-# 3. Concept Drift: relationship changes
-# 4. Latency: response time
-# 5. Throughput: requests per second
-
-# FERRAMENTAS:
-# Evidently, WhyLabs, Arize
-
-# MELHORIA:
-# ERRADO: No model monitoring
-# CORRECT: Comprehensive model monitoring
-```
-
-### A/B Testing (150)
-
-#### MD003: A/B Testing for ML
-```python
-# SKILL: A/B Testing for ML
-# Nível: Intermediário → Expert
-# Contexto: A/B Testing para ML
-
-# CONCEITOS:
-# 1. Hypothesis: test assumptions
-# 2. Randomization: treatment assignment
-# 3. Metrics: business KPIs
-# 4. Significance: statistical tests
-# 5. Duration: sufficient sample size
-
-# MELHORIA:
-# ERRADO: No A/B testing
-# CORRECT: Rigorous ML experimentation
-```
-
-### Model Versioning (100)
-
-#### MD004: Model Versioning
-```python
-# SKILL: Model Versioning
-# Nível: Intermediário → Expert
-# Contexto: Versionamento de modelos
-
-# FERRAMENTAS:
-# 1. MLflow: experiment tracking
-# 2. DVC: data version control
-# 3. Weights & Biases: experiment platform
-# 4. Neptune: metadata store
-# 5. Model Registry: centralized
-
-# MELHORIA:
-# ERRADO: No model versioning
-# CORRECT: Systematic model versioning
-```
-
----
-
-## 📈 Data Visualization (700)
-
-### Matplotlib & Seaborn (150)
-
-#### VIS001: Matplotlib & Seaborn
-```python
-# SKILL: Matplotlib & Seaborn
-# Nível: Intermediário → Expert
-# Contexto: Matplotlib e Seaborn
-
-# CONCEITOS:
-# 1. Figures: canvas
-# 2. Axes: plots
-# 3. Types: line, bar, scatter, histogram
-# 4. Styling: themes, palettes
-# 5. Subplots: multiple plots
-
-# MELHORIA:
-# ERRADO: Default matplotlib
-# CORRECT: Beautiful, informative plots
-```
-
-### Interactive Visualization (150)
-
-#### VIS002: Interactive Visualization
+#### VIZ002: Interactive Visualization
 ```python
 # SKILL: Interactive Visualization
 # Nível: Intermediário → Expert
 # Contexto: Visualização interativa
 
+# CONCEITOS:
+# 1. Filtering: data subset
+# 2. Highlighting: emphasis
+# 3. Drill-Down: detail on demand
+# 4. Tooltips: contextual info
+# 5. Animation: temporal changes
+
 # FERRAMENTAS:
-# 1. Plotly: web-based
-# 2. Bokeh: interactive web
-# 3. Altair: declarative
-# 4. D3.js: web visualization
-# 5. Streamlit: data apps
+# 1. D3.js: web visualization
+# 2. Plotly: interactive charts
+# 3. Bokeh: Python visualization
+# 4. Highcharts: commercial charts
+# 5. Tableau: BI platform
 
 # MELHORIA:
-# ERRADO: Static plots only
-# CORRECT: Interactive visualizations
+# ERRADO: Static charts only
+# CORRECT: Interactive dashboards
 ```
 
 ### Dashboard Design (150)
 
-#### VIS003: Dashboard Design
+#### VIZ003: Dashboard Design
 ```python
 # SKILL: Dashboard Design
 # Nível: Intermediário → Expert
 # Contexto: Design de dashboards
 
-# PRINCÍPIOS:
-# 1. Clarity: simple, understandable
-# 2. Accuracy: no misleading
-# 3. Efficiency: minimal ink
-# 4. Aesthetics: engaging
-# 5. Storytelling: narrative flow
+# CONCEITOS:
+# 1. Layout: visual hierarchy
+# 2. KPIs: key metrics
+# 3. Filters: data exploration
+# 4. Alerts: threshold notifications
+# 5. Mobile: responsive design
 
 # FERRAMENTAS:
-# Streamlit, Dash, Panel
-# Grafana, Kibana
+# 1. Tableau: leading BI tool
+# 2. Power BI: Microsoft BI
+# 3. Looker: Google BI
+# 4. Grafana: open-source
+# 5. Metabase: simple BI
 
 # MELHORIA:
-# ERRADO: Dashboard overload
-# CORRECT: Focused, actionable dashboards
+# ERRADO: Cluttered dashboards
+# CORRECT: Clean, actionable dashboards
 ```
 
-### Statistical Visualization (100)
+### Storytelling with Data (100)
 
-#### VIS004: Statistical Visualization
+#### VIZ004: Storytelling with Data
 ```python
-# SKILL: Statistical Visualization
+# SKILL: Storytelling with Data
 # Nível: Intermediário → Expert
-# Contexto: Visualização estatística
+# Contexto: Narrativa com dados
 
-# TIPOS:
-# 1. Distribution: histogram, KDE
-# 2. Relationship: scatter, heatmap
-# 3. Comparison: bar, box, violin
-# 4. Composition: pie, stacked bar
-# 5. Trend: line, area
+# CONCEITOS:
+# 1. Narrative: story arc
+# 2. Visuals: supporting charts
+# 3. Context: background info
+# 4. Call-to-Action: next steps
+# 5. Audience: tailored message
+
+# TÉCNICAS:
+# 1. Hook: grabbing attention
+# 2. Conflict: presenting problem
+# 3. Resolution: showing solution
+# 4. Evidence: data support
+# 5. Conclusion: actionable insights
 
 # MELHORIA:
-# ERRADO: Wrong chart type
-# CORRECT: Appropriate statistical visualization
+# ERRADO: Data dump
+# CORRECT: Compelling data story
+```
+
+---
+
+## 📉 Statistical Modeling (1.500)
+
+### Probability Theory (200)
+
+#### STAT001: Probability Theory
+```python
+# SKILL: Probability Theory
+# Nível: Básico → Expert
+# Contexto: Teoria das probabilidades
+
+# CONCEITOS:
+# 1. Random Variables: outcomes
+# 2. Distributions: probability patterns
+# 3. Expected Value: average outcome
+# 4. Variance: spread measure
+# 5. Conditional: given conditions
+
+# DISTRIBUIÇÕES:
+# 1. Normal: bell curve
+# 2. Binomial: success/failure
+# 3. Poisson: rare events
+# 4. Exponential: waiting time
+# 5. Uniform: equal probability
+
+# MELHORIA:
+# ERRADO: No probability foundation
+# CORRECT: Strong probability skills
+```
+
+### Hypothesis Testing (200)
+
+#### STAT002: Hypothesis Testing
+```python
+# SKILL: Hypothesis Testing
+# Nível: Intermediário → Expert
+# Contexto: Teste de hipóteses
+
+# PROCESSO:
+# 1. Hypothesis: null and alternative
+# 2. Significance: alpha level
+# 3. Test Statistic: calculated value
+# 4. P-Value: probability of result
+# 5. Decision: reject or fail to reject
+
+# TESTES:
+# 1. t-Test: means comparison
+# 2. Chi-Square: categorical data
+# 3. ANOVA: multiple means
+# 4. Correlation: relationship
+# 5. Regression: prediction
+
+# MELHORIA:
+# ERRADO: No hypothesis testing
+# CORRECT: Rigorous statistical testing
+```
+
+### Regression Analysis (150)
+
+#### STAT003: Regression Analysis
+```python
+# SKILL: Regression Analysis
+# Nível: Intermediário → Expert
+# Contexto: Análise de regressão
+
+# TIPOS:
+# 1. Linear: straight line
+# 2. Multiple: many predictors
+# 3. Polynomial: curved relationships
+# 4. Logistic: binary outcomes
+# 5. Ridge/Lasso: regularized
+
+# CONCEITOS:
+# 1. R-Squared: explained variance
+# 2. Coefficients: effect sizes
+# 3. Residuals: prediction errors
+# 4. Assumptions: model requirements
+# 5. Diagnostics: model validation
+
+# MELHORIA:
+# ERRADO: Simple correlation only
+# CORRECT: Advanced regression
+```
+
+### Bayesian Statistics (100)
+
+#### STAT004: Bayesian Statistics
+```python
+# SKILL: Bayesian Statistics
+# Nível: Intermediário → Expert
+# Contexto: Estatística Bayesiana
+
+# CONCEITOS:
+# 1. Prior: initial belief
+# 2. Likelihood: data evidence
+# 3. Posterior: updated belief
+# 4. Credible Interval: uncertainty
+# 5. MCMC: sampling method
+
+# VANTAGENS:
+# 1. Small Data: works with limited data
+# 2. Uncertainty: explicit quantification
+# 3. Sequential: updates with new data
+# 4. Prior Knowledge: incorporates expertise
+# 5. Decision: probabilistic framework
+
+# MELHORIA:
+# ERRADO: Frequentist only
+# CORRECT: Bayesian approach available
+```
+
+---
+
+## 🗄️ Big Data Technologies (1.500)
+
+### Distributed Computing (200)
+
+#### BIG001: Distributed Computing
+```python
+# SKILL: Distributed Computing
+# Nível: Intermediário → Expert
+# Contexto: Computação distribuída
+
+# CONCEITOS:
+# 1. Parallelism: simultaneous processing
+# 2. Distribution: multiple machines
+# 3. Fault Tolerance: failure handling
+# 4. Scalability: adding resources
+# 5. Consistency: data agreement
+
+# MODELOS:
+# 1. MapReduce: batch processing
+# 2. Spark: in-memory computing
+# 3. Flink: stream processing
+# 4. Storm: real-time computation
+# 5. Hadoop: distributed storage
+
+# MELHORIA:
+# ERRADO: Single-machine processing
+# CORRECT: Distributed computing
+```
+
+### Data Lakes & Warehouses (200)
+
+#### BIG002: Data Lakes & Warehouses
+```python
+# SKILL: Data Lakes & Warehouses
+# Nível: Intermediário → Expert
+# Contexto: Data lakes e warehouses
+
+# CONCEITOS:
+# 1. Data Lake: raw data storage
+# 2. Data Warehouse: processed data
+# 3. Data Mart: departmental data
+# 4. ETL: extract, transform, load
+# 5. ELT: extract, load, transform
+
+# TECNOLOGIAS:
+# 1. S3: object storage
+# 2. Delta Lake: ACID transactions
+# 3. Snowflake: cloud warehouse
+# 4. BigQuery: Google warehouse
+# 5. Redshift: AWS warehouse
+
+# MELHORIA:
+# ERRADO: No data architecture
+# CORRECT: Modern data platform
+```
+
+### Stream Processing (150)
+
+#### BIG003: Stream Processing
+```python
+# SKILL: Stream Processing
+# Nível: Intermediário → Expert
+# Contexto: Processamento de streams
+
+# CONCEITOS:
+# 1. Real-Time: immediate processing
+# 2. Micro-Batch: small batches
+# 3. Windowing: time-based grouping
+# 4. State: maintaining context
+# 5. Exactly-Once: delivery guarantee
+
+# FERRAMENTAS:
+# 1. Apache Kafka: event streaming
+# 2. Apache Flink: stream processing
+# 3. Spark Streaming: micro-batch
+# 4. AWS Kinesis: managed streaming
+# 5. Google Dataflow: unified processing
+
+# MELHORIA:
+# ERRADO: Batch-only processing
+# CORRECT: Real-time streaming
+```
+
+### Data Governance (100)
+
+#### BIG004: Data Governance
+```python
+# SKILL: Data Governance
+# Nível: Intermediário → Expert
+# Contexto: Governança de dados
+
+# CONCEITOS:
+# 1. Quality: accuracy, completeness
+# 2. Lineage: data origin tracking
+# 3. Catalog: data discovery
+# 4. Policies: data rules
+# 5. Compliance: regulatory adherence
+
+# FERRAMENTAS:
+# 1. Apache Atlas: metadata management
+# 2. Collibra: data intelligence
+# 3. Alation: data catalog
+# 4. Informatica: data quality
+# 5. Talend: data integration
+
+# MELHORIA:
+# ERRADO: No data governance
+# CORRECT: Enterprise data governance
+```
+
+---
+
+## ⚖️ Data Ethics & Governance (1.000)
+
+### Ethical AI (200)
+
+#### ETHICS001: Ethical AI
+```python
+# SKILL: Ethical AI
+# Nível: Intermediário → Expert
+# Contexto: IA ética
+
+# CONCEITOS:
+# 1. Fairness: unbiased outcomes
+# 2. Transparency: explainable decisions
+# 3. Accountability: responsibility
+# 4. Privacy: data protection
+# 5. Safety: harm prevention
+
+# VIÉSES:
+# 1. Selection: data collection bias
+# 2. Measurement: metric bias
+# 3. Algorithm: model bias
+# 4. Human: cognitive bias
+# 5. Institutional: systemic bias
+
+# MELHORIA:
+# ERRADO: No ethical considerations
+# CORRECT: Ethical AI framework
+```
+
+### Data Privacy (200)
+
+#### ETHICS002: Data Privacy
+```python
+# SKILL: Data Privacy
+# Nível: Intermediário → Expert
+# Contexto: Privacidade de dados
+
+# REGULATIONS:
+# 1. GDPR: European regulation
+# 2. CCPA: California privacy
+# 3. HIPAA: health data
+# 4. PCI DSS: payment data
+# 5. COPPA: children's data
+
+# TÉCNICAS:
+# 1. Anonymization: removing identity
+# 2. Differential Privacy: noise addition
+# 3. Federated Learning: distributed
+# 4. Homomorphic: encrypted computation
+# 5. Secure Multi-Party: privacy-preserving
+
+# MELHORIA:
+# ERRADO: No privacy protection
+# CORRECT: Privacy-by-design
+```
+
+### Model Interpretability (150)
+
+#### ETHICS003: Model Interpretability
+```python
+# SKILL: Model Interpretability
+# Nível: Intermediário → Expert
+# Contexto: Interpretabilidade de modelos
+
+# CONCEITOS:
+# 1. Explainability: understanding decisions
+# 2. Feature Importance: key predictors
+# 3. SHAP: Shapley values
+# 4. LIME: local explanations
+# 5. Counterfactual: what-if analysis
+
+# TÉCNICAS:
+# 1. Partial Dependence: feature effects
+# 2. Accumulated Local: feature effects
+# 3. Attention: transformer explanations
+# 4. Rule Extraction: simplified models
+# 5. Surrogate: approximating models
+
+# MELHORIA:
+# ERRADO: Black-box models
+# CORRECT: Interpretable AI
+```
+
+### Data Quality (100)
+
+#### ETHICS004: Data Quality
+```python
+# SKILL: Data Quality
+# Nível: Intermediário → Expert
+# Contexto: Qualidade de dados
+
+# DIMENSÕES:
+# 1. Accuracy: correctness
+# 2. Completeness: fullness
+# 3. Consistency: agreement
+# 4. Timeliness: freshness
+# 5. Validity: conformity
+
+# PROCESSO:
+# 1. Profiling: understanding data
+# 2. Assessment: quality measurement
+# 3. Improvement: fixing issues
+# 4. Monitoring: ongoing quality
+# 5. Reporting: quality metrics
+
+# MELHORIA:
+# ERRADO: No data quality focus
+# CORRECT: Data quality program
 ```
 
 ---
