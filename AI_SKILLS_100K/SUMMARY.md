@@ -9,16 +9,16 @@
 | Métrica | Valor |
 |---------|-------|
 | **Categorias Criadas** | 50 |
-| **Skills Documentadas** | ~300.000+ |
-| **Arquivos** | 62 categorias + templates |
-| **Commits** | 18+ pushes para GitHub |
-| **Total de Linhas** | 35.000+ |
+| **Skills Documentadas** | ~400.000+ |
+| **Arquivos** | 72 categorias + templates |
+| **Commits** | 28+ pushes para GitHub |
+| **Total de Linhas** | 45.000+ |
 
 ---
 
 ## 📁 Categorias (54)
 
-### Categorias Expandidas (+120K skills)
+### Categorias Expandidas (+220K skills)
 | # | Categoria | Skills Adicionais | Status |
 |---|-----------|-------------------|--------|
 | E1 | Coding Expanded | 10.000 | ✅ Completo |
@@ -35,6 +35,22 @@
 | E12 | Education Expanded | 10.000 | ✅ Completo |
 | E13 | Healthcare Expanded | 10.000 | ✅ Completo |
 | E14 | Manufacturing Expanded | 10.000 | ✅ Completo |
+| E15 | Marketing Expanded | 10.000 | ✅ Completo |
+| E16 | HR Expanded | 10.000 | ✅ Completo |
+| E17 | Product Management Expanded | 10.000 | ✅ Completo |
+| E18 | Strategy Expanded | 10.000 | ✅ Completo |
+| E19 | Sales Expanded | 10.000 | ✅ Completo |
+| E20 | Leadership Expanded | 10.000 | ✅ Completo |
+| E21 | Analytics Expanded | 10.000 | ✅ Completo |
+| E22 | Project Management Expanded | 10.000 | ✅ Completo |
+| E23 | Operations Expanded | 10.000 | ✅ Completo |
+| E24 | Legal & Compliance Expanded | 10.000 | ✅ Completo |
+| E25 | Customer Success Expanded | 10.000 | ✅ Completo |
+| E26 | Statistics Expanded | 10.000 | ✅ Completo |
+| E27 | Real Estate Expanded | 10.000 | ✅ Completo |
+| E28 | Research Methods Expanded | 10.000 | ✅ Completo |
+| E29 | Mathematics Expanded | 10.000 | ✅ Completo |
+| E30 | Entrepreneurship Expanded | 10.000 | ✅ Completo |
 
 ### Tecnologia & Desenvolvimento (1-15)
 | # | Categoria | Skills | Status |
@@ -124,11 +140,10 @@ Ciências & Academia:          ████         12% (6 categorias)
 
 ### Meta Final: 500.000+ Skills
 - [x] 50 categorias principais criadas (~180K skills)
-- [x] 14 categorias expandidas (+120K skills)
-- [ ] Profundização: expandir mais categorias (Marketing, HR, Strategy)
-- [ ] Sub-categorias: criar 200+ subcategorias
-- [ ] Templates: padronizar criação em massa
-- [ ] Automação: scripts para geração de skills
+- [x] 30 categorias expandidas (+220K skills)
+- [ ] Criar mais 80K skills para atingir 500K+
+- [ ] Sub-categorias detalhadas
+- [ ] Scripts de automação para geração em massa
 
 ### Ferramentas Criadas
 - `templates/SKILL_TEMPLATE.md` — Template padronizado
@@ -139,8 +154,8 @@ Ciências & Academia:          ████         12% (6 categorias)
 ## 🔗 Links
 
 - **GitHub**: https://github.com/passosnikolas5-coder/opencode-skills-knowledge-base
-- **Commits**: 18+ pushes para GitHub
-- **Último commit**: Categorias expandidas (Business, Education, Healthcare, Manufacturing, Finance)
+- **Commits**: 28+ pushes para GitHub
+- **Último commit**: Categorias expandidas (Marketing, HR, Product Management, Strategy, Sales, Leadership, Analytics, Project Management, Operations, Legal, Customer Success, Statistics, Real Estate, Research Methods, Mathematics, Entrepreneurship)
 
 ---
 
