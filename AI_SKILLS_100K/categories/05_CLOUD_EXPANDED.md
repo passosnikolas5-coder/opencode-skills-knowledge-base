@@ -1,6 +1,6 @@
-# ☁️ Cloud & Infrastructure - Expansão 10K Skills
+# ☁️ Cloud Computing - Expansão 10K Skills
 
-> **Expansão detalhada: 10.000+ skills adicionais de cloud**
+> **Expansão detalhada: 10.000+ skills adicionais de computação em nuvem**
 
 ---
 
@@ -8,92 +8,99 @@
 
 | Subcategoria | Skills Adicionais | Status |
 |--------------|-------------------|--------|
-| AWS Services | 1.500 | ✅ |
-| Azure Services | 1.500 | ✅ |
-| GCP Services | 1.000 | ✅ |
-| Kubernetes | 1.000 | ✅ |
-| Terraform & IaC | 1.000 | ✅ |
-| Cloud Networking | 800 | ✅ |
-| Cloud Databases | 700 | ✅ |
-| Serverless | 800 | ✅ |
-| Cloud Cost Optimization | 700 | ✅ |
+| AWS | 2.000 | ✅ |
+| Azure | 2.000 | ✅ |
+| Google Cloud | 1.500 | ✅ |
+| Cloud Architecture | 1.500 | ✅ |
+| Cloud Security | 1.500 | ✅ |
+| Cloud DevOps | 1.500 | ✅ |
 
 ---
 
-## 🔶 AWS Services (1.500)
+## 🟠 AWS (2.000)
 
-### Compute (200)
+### EC2 & Compute (200)
 
-#### AWS001: AWS Compute Services
+#### AWS001: EC2 & Compute
 ```python
-# SKILL: AWS Compute Services
+# SKILL: EC2 & Compute
 # Nível: Intermediário → Expert
-# Contexto: Serviços de compute AWS
+# Contexto: EC2 e computação
+
+# CONCEITOS:
+# 1. Instance Types: general, compute, memory
+# 2. AMIs: Amazon Machine Images
+# 3. Security Groups: firewall rules
+# 4. Key Pairs: SSH access
+# 5. Elastic IP: static public IP
 
 # SERVIÇOS:
-# 1. EC2: virtual machines
+# 1. EC2: virtual servers
 # 2. Lambda: serverless functions
 # 3. ECS: container orchestration
 # 4. EKS: Kubernetes on AWS
-# 5. Fargate: serverless containers
-
-# INSTÂNCIAS:
-# General: t3, m5, m6i
-# Compute: c5, c6i
-# Memory: r5, r6i
-# Storage: d3, i3
-# Accelerated: p4, g5
+# 5. Lightsail: simplified VPS
 
 # MELHORIA:
-# ERRADO: Wrong instance type
-# CERTO: Right-sized instances
+# ERRADO: Wrong instance sizing
+# CORRECT: Optimized compute selection
 ```
 
-### Storage (200)
+### S3 & Storage (200)
 
-#### AWS002: AWS Storage Services
+#### AWS002: S3 & Storage
 ```python
-# SKILL: AWS Storage Services
+# SKILL: S3 & Storage
 # Nível: Intermediário → Expert
-# Contexto: Serviços de storage AWS
+# Contexto: S3 e armazenamento
+
+# CONCEITOS:
+# 1. Buckets: containers for objects
+# 2. Objects: files, metadata
+# 3. Classes: Standard, IA, Glacier
+# 4. Versioning: object versions
+# 5. Lifecycle: automatic transitions
+
+# RECURSOS:
+# 1. Versioning: object protection
+# 2. Encryption: data at rest
+# 3. Replication: cross-region
+# 4. Access Control: policies
+# 5. Static Hosting: web content
+
+# MELHORIA:
+# ERRADO: S3 as simple storage
+# CORRECT: Strategic S3 architecture
+```
+
+### RDS & Databases (150)
+
+#### AWS003: RDS & Databases
+```python
+# SKILL: RDS & Databases
+# Nível: Intermediário → Expert
+# Contexto: RDS e bancos de dados
 
 # SERVIÇOS:
-# 1. S3: object storage
-# 2. EBS: block storage
-# 3. EFS: file storage
-# 4. FSx: managed file systems
-# 5. Storage Gateway: hybrid
+# 1. RDS: relational database
+# 2. DynamoDB: NoSQL
+# 3. ElastiCache: Redis, Memcached
+# 4. Aurora: MySQL, PostgreSQL
+# 5. Redshift: data warehousing
 
-# S3 CLASSES:
-# Standard, IA, One Zone-IA
-# Glacier, Deep Archive
-
-# MELHORIA:
-# ERRADO: S3 Standard for everything
-# CERTO: Right storage class for access patterns
-```
-
-### Database (200)
-
-#### AWS003: AWS Database Services
-```python
-# SKILL: AWS Database Services
-# Nível: Intermediário → Expert
-# Contexto: Serviços de banco de dados AWS
-
-# SERVIÇOS:
-# 1. RDS: managed relational
-# 2. Aurora: high-performance
-# 3. DynamoDB: NoSQL
-# 4. ElastiCache: caching
-# 5. Neptune: graph database
+# CONCEITOS:
+# 1. Multi-AZ: high availability
+# 2. Read Replicas: scaling reads
+# 3. Backup: automated snapshots
+# 4. Encryption: at rest, in transit
+# 5. Performance: instance sizing
 
 # MELHORIA:
-# ERRADO: Single database for all
-# CERTO: Purpose-built databases
+# ERRADO: Single-AZ database
+# CORRECT: Highly available database
 ```
 
-### Networking (150)
+### Networking (100)
 
 #### AWS004: AWS Networking
 ```python
@@ -101,863 +108,564 @@
 # Nível: Intermediário → Expert
 # Contexto: Networking AWS
 
-# SERVIÇOS:
+# CONCEITOS:
 # 1. VPC: virtual private cloud
+# 2. Subnets: public, private
+# 3. Route Tables: traffic routing
+# 4. Internet Gateway: public access
+# 5. NAT Gateway: private access
+
+# SERVIÇOS:
+# 1. CloudFront: CDN
 # 2. Route 53: DNS
-# 3. CloudFront: CDN
-# 4. ELB: load balancing
-# 5. Direct Connect: dedicated link
+# 3. ELB: load balancing
+# 4. Direct Connect: dedicated link
+# 5. Transit Gateway: hub connectivity
 
 # MELHORIA:
-# ERRADO: Single VPC
-# CERTO: Multi-AZ, multi-region design
-```
-
-### Security (150)
-
-#### AWS005: AWS Security Services
-```python
-# SKILL: AWS Security Services
-# Nível: Intermediário → Expert
-# Contexto: Serviços de segurança AWS
-
-# SERVIÇOS:
-# 1. IAM: identity & access
-# 2. KMS: key management
-# 3. Secrets Manager: secrets
-# 4. GuardDuty: threat detection
-# 5. Security Hub: central dashboard
-
-# MELHORIA:
-# ERRADO: Root account usage
-# CERTO: IAM best practices
-```
-
-### DevOps (150)
-
-#### AWS006: AWS DevOps Services
-```python
-# SKILL: AWS DevOps Services
-# Nível: Intermediário → Expert
-# Contexto: Serviços DevOps AWS
-
-# SERVIÇOS:
-# 1. CodePipeline: CI/CD
-# 2. CodeBuild: build service
-# 3. CodeDeploy: deployment
-# 4. CodeCommit: source control
-# 5. CloudFormation: IaC
-
-# MELHORIA:
-# ERRADO: Manual deployments
-# CERTO: Automated CI/CD pipelines
+# ERRADO: Public subnets everywhere
+# CORRECT: Proper VPC architecture
 ```
 
 ---
 
-## 🔷 Azure Services (1.500)
+## 🔵 Azure (2.000)
 
-### Compute (200)
+### Azure Compute (200)
 
-#### AZ001: Azure Compute Services
+#### AZ001: Azure Compute
 ```python
-# SKILL: Azure Compute Services
+# SKILL: Azure Compute
 # Nível: Intermediário → Expert
-# Contexto: Serviços de compute Azure
+# Contexto: Computação Azure
 
 # SERVIÇOS:
-# 1. Virtual Machines: IaaS
+# 1. Virtual Machines: Windows, Linux
 # 2. Azure Functions: serverless
-# 3. AKS: Kubernetes
-# 4. Container Instances: containers
-# 5. App Service: PaaS web apps
+# 3. App Service: web applications
+# 4. AKS: Kubernetes service
+# 5. Container Instances: containers
+
+# CONCEITOS:
+# 1. Availability Sets: redundancy
+# 2. Scale Sets: auto-scaling
+# 3. Reserved Instances: cost savings
+# 4. Spot VMs: discounted compute
+# 5. Proximity Groups: low latency
 
 # MELHORIA:
-# ERRADO: VMs for everything
-# CERTO: Right compute service
+# ERRADO: No Azure compute
+# CORRECT: Strategic Azure compute
 ```
 
-### Storage (200)
+### Azure Networking (200)
 
-#### AZ002: Azure Storage Services
-```python
-# SKILL: Azure Storage Services
-# Nível: Intermediário → Expert
-# Contexto: Serviços de storage Azure
-
-# SERVIÇOS:
-# 1. Blob Storage: object storage
-# 2. Disk Storage: managed disks
-# 3. File Storage: file shares
-# 4. Queue Storage: messaging
-# 5. Table Storage: NoSQL
-
-# MELHORIA:
-# ERRADO: Wrong storage tier
-# CERTO: Optimized storage classes
-```
-
-### Database (200)
-
-#### AZ003: Azure Database Services
-```python
-# SKILL: Azure Database Services
-# Nível: Intermediário → Expert
-# Contexto: Serviços de banco de dados Azure
-
-# SERVIÇOS:
-# 1. Azure SQL: managed SQL Server
-# 2. Cosmos DB: global NoSQL
-# 3. Database for MySQL/PostgreSQL
-# 4. Database Migration Service
-# 5. Synapse Analytics: data warehouse
-
-# MELHORIA:
-# ERRADO: On-prem databases only
-# CERTO: Cloud-native databases
-```
-
-### Networking (150)
-
-#### AZ004: Azure Networking
+#### AZ002: Azure Networking
 ```python
 # SKILL: Azure Networking
 # Nível: Intermediário → Expert
 # Contexto: Networking Azure
 
+# CONCEITOS:
+# 1. Virtual Network: isolated environment
+# 2. Subnets: network segmentation
+# 3. NSGs: network security groups
+# 4. Azure Firewall: managed firewall
+# 5. VPN Gateway: site-to-site
+
 # SERVIÇOS:
-# 1. Virtual Network: VNet
-# 2. Load Balancer: distribution
-# 3. Application Gateway: WAF
-# 4. Azure Front Door: global CDN
-# 5. ExpressRoute: dedicated connection
+# 1. Azure Front Door: global load balancer
+# 2. Azure CDN: content delivery
+# 3. Traffic Manager: DNS load balancing
+# 4. ExpressRoute: private connectivity
+# 5. Azure DNS: domain hosting
 
 # MELHORIA:
-# ERRADO: Flat network
-# CERTO: Segmented, secure networking
+# ERRADO: No network architecture
+# CORRECT: Secure, scalable networking
 ```
 
-### Security (150)
+### Azure Storage (150)
 
-#### AZ005: Azure Security Services
+#### AZ003: Azure Storage
 ```python
-# SKILL: Azure Security Services
+# SKILL: Azure Storage
 # Nível: Intermediário → Expert
-# Contexto: Serviços de segurança Azure
+# Contexto: Armazenamento Azure
 
 # SERVIÇOS:
-# 1. Azure AD: identity management
-# 2. Sentinel: cloud SIEM
-# 3. Defender: threat protection
-# 4. Key Vault: secrets management
-# 5. Policy: compliance enforcement
+# 1. Blob Storage: object storage
+# 2. File Storage: file shares
+# 3. Queue Storage: message queues
+# 4. Table Storage: NoSQL tables
+# 5. Disk Storage: managed disks
+
+# CONCEITOS:
+# 1. Redundancy: LRS, GRS, ZRS
+# 2. Access Tiers: Hot, Cool, Archive
+# 3. Lifecycle: automatic management
+# 4. Security: encryption, SAS
+# 5. Performance: standard, premium
 
 # MELHORIA:
-# ERRADO: Default security settings
-# CERTO: Hardened Azure security
+# ERRADO: Basic storage only
+# CORRECT: Optimized storage strategy
 ```
 
-### DevOps (150)
+### Azure Identity (100)
 
-#### AZ006: Azure DevOps Services
+#### AZ004: Azure Identity
 ```python
-# SKILL: Azure DevOps Services
+# SKILL: Azure Identity
 # Nível: Intermediário → Expert
-# Contexto: Serviços DevOps Azure
+# Contexto: Identidade Azure
 
-# SERVIÇOS:
-# 1. Azure DevOps: boards, repos, pipelines
-# 2. GitHub Actions: CI/CD
-# 3. Azure Resource Manager: IaC
-# 4. Bicep: ARM template language
-# 5. Azure Arc: hybrid management
+# CONCEITOS:
+# 1. Azure AD: identity directory
+# 2. Managed Identity: service identity
+# 3. RBAC: role-based access
+# 4. Conditional Access: policies
+# 5. MFA: multi-factor auth
 
 # MELHORIA:
-# ERRADO: Manual deployments
-# CERTO: Automated Azure DevOps
+# ERRADO: Basic authentication
+# CORRECT: Zero-trust identity
 ```
 
 ---
 
-## 🟢 GCP Services (1.000)
+## 🟢 Google Cloud (1.500)
 
-### Compute (200)
+### GCP Compute (200)
 
-#### GCP001: GCP Compute Services
+#### GCP001: GCP Compute
 ```python
-# SKILL: GCP Compute Services
+# SKILL: GCP Compute
 # Nível: Intermediário → Expert
-# Contexto: Serviços de compute GCP
+# Contexto: Computação GCP
 
 # SERVIÇOS:
 # 1. Compute Engine: VMs
-# 2. Cloud Run: serverless containers
-# 3. GKE: Kubernetes
-# 4. Cloud Functions: serverless
-# 5. App Engine: PaaS
+# 2. Cloud Functions: serverless
+# 3. App Engine: PaaS
+# 4. GKE: Kubernetes
+# 5. Cloud Run: containers
+
+# CONCEITOS:
+# 1. Instance Groups: managed, unmanaged
+# 2. Auto-Scaling: demand-based
+# 3. Preemptible: low-cost VMs
+# 4. Sole-Tenant: dedicated hosts
+# 5. Commitment: sustained use discounts
 
 # MELHORIA:
-# ERRADO: VMs for everything
-# CERTO: Serverless-first approach
+# ERRADO: No GCP compute
+# CORRECT: Strategic GCP compute
 ```
 
-### Storage (150)
+### GCP Networking (200)
 
-#### GCP002: GCP Storage Services
+#### GCP002: GCP Networking
 ```python
-# SKILL: GCP Storage Services
+# SKILL: GCP Networking
 # Nível: Intermediário → Expert
-# Contexto: Serviços de storage GCP
+# Contexto: Networking GCP
+
+# CONCEITOS:
+# 1. VPC: global network
+# 2. Subnets: regional
+# 3. Firewall Rules: traffic control
+# 4. Cloud NAT: internet access
+# 5. Cloud Interconnect: dedicated
 
 # SERVIÇOS:
-# 1. Cloud Storage: object storage
-# 2. Persistent Disk: block storage
-# 3. Filestore: managed file storage
-# 4. Memorystore: in-memory caching
-# 5. Cloud SQL: managed relational
+# 1. Cloud Load Balancing: global
+# 2. Cloud CDN: content delivery
+# 3. Cloud DNS: managed DNS
+# 4. Cloud VPN: encrypted tunnel
+# 5. Network Intelligence: monitoring
 
 # MELHORIA:
-# ERRADO: Single storage class
-# CERTO: Optimized storage tiers
+# ERRADO: Basic networking
+# CORRECT: Enterprise GCP networking
 ```
 
-### Database (150)
+### GCP Data & Analytics (150)
 
-#### GCP003: GCP Database Services
+#### GCP003: GCP Data & Analytics
 ```python
-# SKILL: GCP Database Services
+# SKILL: GCP Data & Analytics
 # Nível: Intermediário → Expert
-# Contexto: Serviços de banco de dados GCP
+# Contexto: Dados e analytics GCP
 
 # SERVIÇOS:
-# 1. Cloud SQL: MySQL, PostgreSQL
-# 2. Spanner: global relational
-# 3. Firestore: NoSQL document
-# 4. Bigtable: wide-column
-# 5. BigQuery: data warehouse
-
-# MELHORIA:
-# ERRADO: Wrong database for workload
-# CERTO: Purpose-built data platform
-```
-
-### Data Analytics (150)
-
-#### GCP004: GCP Data Analytics
-```python
-# SKILL: GCP Data Analytics
-# Nível: Intermediário → Expert
-# Contexto: Analytics de dados GCP
-
-# SERVIÇOS:
-# 1. BigQuery: serverless data warehouse
-# 2. Dataflow: stream/batch processing
+# 1. BigQuery: data warehouse
+# 2. Dataflow: stream processing
 # 3. Dataproc: Hadoop/Spark
-# 4. Pub/Sub: event streaming
-# 5. Looker: BI platform
+# 4. Pub/Sub: messaging
+# 5. Data Studio: visualization
+
+# CONCEITOS:
+# 1. Serverless: no infrastructure
+# 2. Pay-per-query: cost model
+# 3. ML Integration: BigQuery ML
+# 4. Real-time: streaming analytics
+# 5. Data Lake: Cloud Storage
 
 # MELHORIA:
-# ERRADO: No data analytics
-# CERTO: Comprehensive data platform
+# ERRADO: No GCP data strategy
+# CORRECT: Comprehensive GCP analytics
 ```
 
-### AI/ML (150)
+### GCP AI/ML (100)
 
-#### GCP005: GCP AI/ML Services
+#### GCP004: GCP AI/ML
 ```python
-# SKILL: GCP AI/ML Services
+# SKILL: GCP AI/ML
 # Nível: Intermediário → Expert
-# Contexto: Serviços de AI/ML GCP
+# Contexto: IA/ML GCP
 
 # SERVIÇOS:
 # 1. Vertex AI: ML platform
-# 2. AutoML: no-code ML
+# 2. AutoML: automated ML
 # 3. Vision API: image analysis
-# 4. Natural Language: text analysis
-# 5. Speech-to-Text: audio processing
+# 4. NLP API: text analysis
+# 5. Translation API: language
 
 # MELHORIA:
-# ERRADO: Building ML from scratch
-# CERTO: Leveraging GCP AI services
+# ERRADO: No GCP AI/ML
+# CORRECT: GCP AI/ML capabilities
 ```
 
 ---
 
-## ☸️ Kubernetes (1.000)
+## 🏗️ Cloud Architecture (1.500)
 
-### Core Concepts (200)
+### Well-Architected Framework (200)
 
-#### K8S001: Kubernetes Core Concepts
-```yaml
-# SKILL: Kubernetes Core Concepts
-# Nível: Intermediário → Expert
-# Contexto: Conceitos fundamentais do Kubernetes
-
-# RECURSOS:
-# 1. Pods: smallest deployable unit
-# 2. Services: networking abstraction
-# 3. Deployments: declarative updates
-# 4. ConfigMaps/Secrets: configuration
-# 5. Namespaces: multi-tenancy
-
-# MELHORIA:
-# ERRADO: No Kubernetes knowledge
-# CERTO: Strong K8s fundamentals
-```
-
-### Networking (150)
-
-#### K8S002: Kubernetes Networking
-```yaml
-# SKILL: Kubernetes Networking
-# Nível: Intermediário → Expert
-# Contexto: Networking Kubernetes
-
-# CONCEITOS:
-# 1. Service Types: ClusterIP, NodePort, LoadBalancer
-# 2. Ingress: HTTP routing
-# 3. Network Policies: firewall rules
-# 4. CNI: Calico, Cilium, Flannel
-# 5. Service Mesh: Istio, Linkerd
-
-# MELHORIA:
-# ERRADO: No network policies
-# CERTO: Comprehensive network security
-```
-
-### Security (150)
-
-#### K8S003: Kubernetes Security
-```yaml
-# SKILL: Kubernetes Security
-# Nível: Intermediário → Expert
-# Contexto: Segurança Kubernetes
-
-# CAMADAS:
-# 1. Cluster: RBAC, audit logs
-# 2. Pod: security contexts
-# 3. Network: policies, encryption
-# 4. Supply chain: image scanning
-# 5. Runtime: behavior monitoring
-
-# FERRAMENTAS:
-# Falco, kube-bench, OPA
-# Trivy, Cert-Manager
-
-# MELHORIA:
-# ERRADO: Default Kubernetes
-# CERTO: Hardened K8s security
-```
-
-### Observability (100)
-
-#### K8S004: Kubernetes Observability
-```yaml
-# SKILL: Kubernetes Observability
-# Nível: Intermediário → Expert
-# Contexto: Observabilidade Kubernetes
-
-# PILLARS:
-# 1. Metrics: Prometheus, Grafana
-# 2. Logging: ELK, Loki
-# 3. Tracing: Jaeger, Tempo
-# 4. Alerting: AlertManager
-# 5. Dashboards: Kubernetes-specific
-
-# MELHORIA:
-# ERRADO: No observability
-# CERTO: Full observability stack
-```
-
-### Storage (100)
-
-#### K8S005: Kubernetes Storage
-```yaml
-# SKILL: Kubernetes Storage
-# Nível: Intermediário → Expert
-# Contexto: Storage Kubernetes
-
-# CONCEITOS:
-# 1. Persistent Volumes: PV
-# 2. Persistent Volume Claims: PVC
-# 3. Storage Classes: dynamic provisioning
-# 4. CSI: Container Storage Interface
-# 5. StatefulSets: stateful applications
-
-# MELHORIA:
-# ERRADO: No persistent storage
-# CERTO: Proper storage management
-```
-
-### Helm & Packaging (100)
-
-#### K8S006: Helm & Application Packaging
-```yaml
-# SKILL: Helm & Application Packaging
-# Nível: Intermediário → Expert
-# Contexto: Helm e empacotamento de aplicações
-
-# CONCEITOS:
-# 1. Charts: application packages
-# 2. Values: configuration
-# 3. Templates: Kubernetes manifests
-# 4. Repositories: package storage
-# 5. Releases: deployment instances
-
-# MELHORIA:
-# ERRADO: Raw YAML manifests
-# CERTO: Helm charts for reusability
-```
-
----
-
-## 🏗️ Terraform & IaC (1.000)
-
-### Terraform Core (200)
-
-#### TF001: Terraform Core
-```hcl
-# SKILL: Terraform Core
-# Nível: Intermediário → Expert
-# Contexto: Terraform core
-
-# CONCEITOS:
-# 1. Resources: infrastructure components
-# 2. Variables: input parameters
-# 3. Outputs: return values
-# 4. Data Sources: existing resources
-# 5. State: infrastructure state
-
-# COMANDOS:
-# init, plan, apply, destroy
-# import, state, output
-
-# MELHORIA:
-# ERRADO: Manual infrastructure
-# CERTO: Declarative Infrastructure as Code
-```
-
-### Terraform Modules (150)
-
-#### TF002: Terraform Modules
-```hcl
-# SKILL: Terraform Modules
-# Nível: Intermediário → Expert
-# Contexto: Módulos Terraform
-
-# CONCEITOS:
-# 1. Module Structure: reusable components
-# 2. Input Variables: interfaces
-# 3. Output Values: return interfaces
-# 4. Providers: resource types
-# 5. Composition: module assembly
-
-# MELHORIA:
-# ERRADO: Monolithic Terraform
-# CERTO: Modular, reusable Terraform
-```
-
-### State Management (150)
-
-#### TF003: Terraform State Management
-```hcl
-# SKILL: Terraform State Management
-# Nível: Intermediário → Expert
-# Contexto: Gestão de estado Terraform
-
-# CONCEITOS:
-# 1. Remote State: S3, Azure Blob
-# 2. State Locking: prevent conflicts
-# 3. Workspaces: environment separation
-# 4. Import: existing resources
-# 5. Drift Detection: state reconciliation
-
-# MELHORIA:
-# ERRADO: Local state files
-# CERTO: Remote, locked state management
-```
-
-### Best Practices (150)
-
-#### TF004: Terraform Best Practices
-```hcl
-# SKILL: Terraform Best Practices
-# Nível: Intermediário → Expert
-# Contexto: Melhores práticas Terraform
-
-# PRINCÍPIOS:
-# 1. Version Control: Git
-# 2. Code Review: PRs for changes
-# 3. Testing: Terratest
-# 4. Documentation: terraform-docs
-# 5. Security: tfsec, checkov
-
-# MELHORIA:
-# ERRADO: Untested Terraform
-# CERTO: Tested, reviewed, documented Terraform
-```
-
-### Multi-Cloud (100)
-
-#### TF005: Terraform Multi-Cloud
-```hcl
-# SKILL: Terraform Multi-Cloud
-# Nível: Intermediário → Expert
-# Contexto: Terraform multi-cloud
-
-# ESTRATÉGIAS:
-# 1. Provider Abstraction: common modules
-# 2. Cloud-Agnostic: core resources
-# 3. Specific: cloud-native resources
-# 4. Hybrid: on-prem + cloud
-# 5. Migration: cloud-to-cloud
-
-# MELHORIA:
-# ERRADO: Single-cloud lock-in
-# CERTO: Multi-cloud flexibility
-```
-
----
-
-## 🌐 Cloud Networking (800)
-
-### VPC Design (200)
-
-#### NET001: VPC Design
+#### CA001: Well-Architected Framework
 ```python
-# SKILL: VPC Design
+# SKILL: Well-Architected Framework
 # Nível: Intermediário → Expert
-# Contexto: Design de VPC
+# Contexto: Framework Well-Architected
+
+# PILARES:
+# 1. Operational Excellence: operations
+# 2. Security: data protection
+# 3. Reliability: fault tolerance
+# 4. Performance: efficiency
+# 5. Cost: optimization
 
 # CONCEITOS:
-# 1. CIDR: address planning
-# 2. Subnets: public, private
-# 3. Route Tables: traffic routing
-# 4. NAT: internet access
-# 5. VPN: hybrid connectivity
+# 1. Trade-offs: architectural decisions
+# 2. Best Practices: proven patterns
+# 3. Anti-Patterns: common mistakes
+# 4. Review: assessment process
+# 5. Improvement: optimization path
 
 # MELHORIA:
-# ERRADO: Flat VPC design
-# CERTO: Tiered, segmented VPC
+# ERRADO: No architecture review
+# CORRECT: Well-architected solutions
 ```
 
-### Load Balancing (150)
+### Microservices Architecture (200)
 
-#### NET002: Cloud Load Balancing
+#### CA002: Microservices Architecture
 ```python
-# SKILL: Cloud Load Balancing
+# SKILL: Microservices Architecture
 # Nível: Intermediário → Expert
-# Contexto: Load balancing na cloud
+# Contexto: Arquitetura de microsserviços
 
-# TIPOS:
-# 1. L4: TCP/UDP, high performance
-# 2. L7: HTTP/HTTPS, content routing
-# 3. Global: multi-region
-# 4. Internal: private traffic
-# 5. WebSocket: persistent connections
+# CONCEITOS:
+# 1. Service Decomposition: bounded contexts
+# 2. API Gateway: entry point
+# 3. Service Discovery: finding services
+# 4. Circuit Breaker: fault tolerance
+# 5. Event-Driven: async communication
+
+# PADRÕES:
+# 1. Saga: distributed transactions
+# 2. CQRS: read/write separation
+# 3. Event Sourcing: state history
+# 4. Strangler Fig: migration
+# 5. Sidecar: auxiliary services
 
 # MELHORIA:
-# ERRADO: Single load balancer
-# CERTO: Multi-tier load balancing
+# ERRADO: Distributed monolith
+# CORRECT: True microservices
 ```
 
-### DNS & CDN (150)
+### Serverless Architecture (150)
 
-#### NET003: Cloud DNS & CDN
+#### CA003: Serverless Architecture
 ```python
-# SKILL: Cloud DNS & CDN
+# SKILL: Serverless Architecture
 # Nível: Intermediário → Expert
-# Contexto: DNS e CDN na cloud
+# Contexto: Arquitetura serverless
+
+# CONCEITOS:
+# 1. Functions as a Service: FaaS
+# 2. Backend as a Service: BaaS
+# 3. Event-Driven: trigger-based
+# 4. Pay-per-Use: cost model
+# 5. Auto-Scaling: automatic
 
 # SERVIÇOS:
-# DNS:
-# Route 53 (AWS), Azure DNS, Cloud DNS (GCP)
-
-# CDN:
-# CloudFront (AWS), Azure CDN, Cloud CDN (GCP)
-
-# MELHORIA:
-# ERRADO: No CDN usage
-# CERTO: Global CDN for performance
-```
-
-### Security Groups & Firewalls (150)
-
-#### NET004: Cloud Network Security
-```python
-# SKILL: Cloud Network Security
-# Nível: Intermediário → Expert
-# Contexto: Segurança de rede na cloud
-
-# CONCEITOS:
-# 1. Security Groups: instance-level
-# 2. NACLs: subnet-level
-# 3. WAF: application-level
-# 4. DDoS Protection: AWS Shield
-# 5. Network Firewall: stateful inspection
-
-# MELHORIA:
-# ERRADO: Allow-all rules
-# CERTO: Least-privilege network access
-```
-
----
-
-## 🗄️ Cloud Databases (700)
-
-### Relational Databases (200)
-
-#### DB001: Cloud Relational Databases
-```python
-# SKILL: Cloud Relational Databases
-# Nível: Intermediário → Expert
-# Contexto: Bancos de dados relacionais na cloud
-
-# OPÇÕES:
-# 1. RDS/Aurora: AWS managed
-# 2. Azure SQL: Microsoft managed
-# 3. Cloud SQL/Spanner: Google managed
-# 4. CockroachDB: distributed SQL
-# 5. PlanetScale: MySQL-compatible
-
-# MELHORIA:
-# ERRADO: Self-managed databases
-# CERTO: Managed database services
-```
-
-### NoSQL Databases (200)
-
-#### DB002: Cloud NoSQL Databases
-```python
-# SKILL: Cloud NoSQL Databases
-# Nível: Intermediário → Expert
-# Contexto: Bancos de dados NoSQL na cloud
-
-# OPÇÕES:
-# 1. DynamoDB: key-value, serverless
-# 2. Cosmos DB: multi-model
-# 3. Firestore: document
-# 4. MongoDB Atlas: document
-# 5. Cassandra: wide-column
-
-# MELHORIA:
-# ERRADO: Relational for everything
-# CERTO: Purpose-built database selection
-```
-
-### Data Warehousing (150)
-
-#### DB003: Cloud Data Warehousing
-```python
-# SKILL: Cloud Data Warehousing
-# Nível: Intermediário → Expert
-# Contexto: Data warehousing na cloud
-
-# OPÇÕES:
-# 1. BigQuery: serverless, GCP
-# 2. Redshift: AWS
-# 3. Synapse: Azure
-# 4. Snowflake: multi-cloud
-# 5. Databricks: lakehouse
-
-# MELHORIA:
-# ERRADO: On-prem data warehouse
-# CERTO: Cloud-native data platform
-```
-
-### Caching (150)
-
-#### DB004: Cloud Caching Solutions
-```python
-# SKILL: Cloud Caching Solutions
-# Nível: Intermediário → Expert
-# Contexto: Soluções de cache na cloud
-
-# OPÇÕES:
-# 1. ElastiCache: Redis, Memcached
-# 2. Azure Cache: Redis
-# 3. Memorystore: Redis, Memcached
-# 4. Cloud CDN: edge caching
-# 5. Application-Level: local cache
-
-# MELHORIA:
-# ERRADO: No caching strategy
-# CERTO: Multi-level caching
-```
-
----
-
-## ⚡ Serverless (800)
-
-### Functions as a Service (200)
-
-#### SL001: Functions as a Service
-```python
-# SKILL: Functions as a Service
-# Nível: Intermediário → Expert
-# Contexto: Functions as a Service
-
-# PLATAFORMAS:
-# 1. AWS Lambda: pioneer
+# 1. Lambda: AWS functions
 # 2. Azure Functions: Microsoft
-# 3. Google Cloud Functions: GCP
-# 4. Cloudflare Workers: edge
-# 5. Vercel Functions: frontend
+# 3. Cloud Functions: Google
+# 4. Step Functions: orchestration
+# 5. EventBridge: event routing
 
 # MELHORIA:
 # ERRADO: Serverless for everything
-# CERTO: Right workload for serverless
+# CORRECT: Appropriate serverless use
 ```
 
-### Serverless Containers (150)
+### Multi-Cloud Strategy (100)
 
-#### SL002: Serverless Containers
+#### CA004: Multi-Cloud Strategy
 ```python
-# SKILL: Serverless Containers
+# SKILL: Multi-Cloud Strategy
 # Nível: Intermediário → Expert
-# Contexto: Containers serverless
-
-# OPÇÕES:
-# 1. AWS Fargate: ECS/EKS
-# 2. Azure Container Instances
-# 3. Google Cloud Run
-# 4. Knative: Kubernetes-based
-# 5. Fly.io: edge containers
-
-# MELHORIA:
-# ERRADO: EC2 for containers
-# CERTO: Serverless containers
-```
-
-### Event-Driven Architecture (150)
-
-#### SL003: Event-Driven Architecture
-```python
-# SKILL: Event-Driven Architecture
-# Nível: Intermediário → Expert
-# Contexto: Arquitetura orientada a eventos
-
-# COMPONENTES:
-# 1. Event Sources: triggers
-# 2. Event Bus: routing
-# 3. Event Handlers: processing
-# 4. Event Stores: persistence
-# 5. CQRS: command/query separation
-
-# MELHORIA:
-# ERRADO: Synchronous only
-# CERTO: Event-driven for decoupling
-```
-
-### Step Functions (100)
-
-#### SL004: Serverless Orchestration
-```python
-# SKILL: Serverless Orchestration
-# Nível: Intermediário → Expert
-# Contexto: Orquestração serverless
-
-# OPÇÕES:
-# 1. AWS Step Functions: visual workflows
-# 2. Azure Durable Functions: .NET
-# 3. Google Workflows: GCP
-# 4. Temporal: open-source
-# 5. AWS EventBridge: event routing
-
-# MELHORIA:
-# ERRADO: Complex Lambda chains
-# CERTO: Managed orchestration
-```
-
----
-
-## 💰 Cloud Cost Optimization (700)
-
-### Cost Management (200)
-
-#### COST001: Cloud Cost Management
-```python
-# SKILL: Cloud Cost Management
-# Nível: Intermediário → Expert
-# Contexto: Gestão de custos na cloud
-
-# FERRAMENTAS:
-# 1. AWS Cost Explorer
-# 2. Azure Cost Management
-# 3. GCP Billing Reports
-# 4. CloudHealth: multi-cloud
-# 5. Kubecost: Kubernetes costs
-
-# MELHORIA:
-# ERRADO: No cost visibility
-# CERTO: Comprehensive cost management
-```
-
-### Optimization Strategies (200)
-
-#### COST002: Cost Optimization Strategies
-```python
-# SKILL: Cost Optimization Strategies
-# Nível: Intermediário → Expert
-# Contexto: Estratégias de otimização de custos
-
-# ESTRATÉGIAS:
-# 1. Right-Sizing: match resources to needs
-# 2. Reserved Instances: commitment discounts
-# 3. Spot Instances: unused capacity
-# 4. Auto-Scaling: demand-based
-# 5. Storage Tiering: access patterns
-
-# MELHORIA:
-# ERRADO: Over-provisioned resources
-# CERTO: Optimized resource utilization
-```
-
-### FinOps (150)
-
-#### COST003: FinOps Practices
-```python
-# SKILL: FinOps Practices
-# Nível: Intermediário → Expert
-# Contexto: Práticas de FinOps
-
-# PILARES:
-# 1. Inform: cost visibility
-# 2. Optimize: reduce waste
-# 3. Operate: continuous improvement
-
-# PROCESSO:
-# 1. Visibility: where money goes
-# 2. Allocation: cost attribution
-# 3. Optimization: reduce, right-size
-# 4. Governance: policies, budgets
-# 5. Automation: cost controls
-
-# MELHORIA:
-# ERRADO: Ad-hoc cost cutting
-# CERTO: Systematic FinOps practice
-```
-
-### Budgeting & Forecasting (150)
-
-#### COST004: Cloud Budgeting & Forecasting
-```python
-# SKILL: Cloud Budgeting & Forecasting
-# Nível: Intermediário → Expert
-# Contexto: Orçamento e previsão na cloud
+# Contexto: Estratégia multi-cloud
 
 # CONCEITOS:
-# 1. Budgets: spending limits
-# 2. Alerts: threshold notifications
-# 3. Forecasting: future spend
-# 4. Anomaly Detection: unexpected spikes
-# 5. Chargeback: cost attribution
+# 1. Vendor Lock-In: avoiding dependency
+# 2. Best-of-Breed: cloud strengths
+# 3. Compliance: data sovereignty
+# 4. Resilience: cloud redundancy
+# 5. Cost: competitive pricing
+
+# DESAFIOS:
+# 1. Complexity: more moving parts
+# 2. Skills: team expertise
+# 3. Integration: cross-cloud connectivity
+# 4. Governance: consistent policies
+# 5. Cost: management overhead
 
 # MELHORIA:
-# ERRADO: No budget management
-# CERTO: Proactive cost governance
+# ERRADO: Multi-cloud for the sake of it
+# CORRECT: Strategic multi-cloud
 ```
 
 ---
 
-*Cloud & Infrastructure Expansion v1.0 — Setembro 2026*
+## 🔐 Cloud Security (1.500)
+
+### Identity & Access Management (200)
+
+#### CS001: Identity & Access Management
+```python
+# SKILL: Identity & Access Management
+# Nível: Intermediário → Expert
+# Contexto: Gestão de identidade e acesso
+
+# CONCEITOS:
+# 1. Authentication: who are you
+# 2. Authorization: what can you do
+# 3. Least Privilege: minimum access
+# 4. MFA: multi-factor authentication
+# 5. SSO: single sign-on
+
+# SERVIÇOS:
+# 1. AWS IAM: identity management
+# 2. Azure AD: directory services
+# 3. GCP IAM: access management
+# 4. Okta: identity provider
+# 5. Auth0: authentication service
+
+# MELHORIA:
+# ERRADO: Overly permissive IAM
+# CORRECT: Least-privilege IAM
+```
+
+### Data Protection (200)
+
+#### CS002: Data Protection
+```python
+# SKILL: Data Protection
+# Nível: Intermediário → Expert
+# Contexto: Proteção de dados
+
+# CONCEITOS:
+# 1. Encryption at Rest: stored data
+# 2. Encryption in Transit: moving data
+# 3. Key Management: encryption keys
+# 4. Backup: data recovery
+# 5. Retention: data lifecycle
+
+# SERVIÇOS:
+# 1. KMS: key management
+# 2. Secrets Manager: sensitive data
+# 3. Certificate Manager: TLS
+# 4. Backup Services: automated backup
+# 5. Data Loss Prevention: DLP
+
+# MELHORIA:
+# ERRADO: No data protection
+# CORRECT: Comprehensive data security
+```
+
+### Network Security (150)
+
+#### CS003: Network Security
+```python
+# SKILL: Network Security
+# Nível: Intermediário → Expert
+# Contexto: Segurança de rede
+
+# CONCEITOS:
+# 1. VPC: network isolation
+# 2. Security Groups: firewall rules
+# 3. NACLs: network access control
+# 4. WAF: web application firewall
+# 5. DDoS: attack protection
+
+# MELHORIA:
+# ERRADO: No network security
+# CORRECT: Defense-in-depth networking
+```
+
+### Compliance & Governance (100)
+
+#### CS004: Compliance & Governance
+```python
+# SKILL: Compliance & Governance
+# Nível: Intermediário → Expert
+# Contexto: Conformidade e governança
+
+# CONCEITOS:
+# 1. Policies: guardrails
+# 2. Standards: configurations
+# 3. Auditing: continuous monitoring
+# 4. Reporting: compliance evidence
+# 5. Remediation: fixing violations
+
+# FERRAMENTAS:
+# 1. AWS Config: resource compliance
+# 2. Azure Policy: governance rules
+# 3. GCP Organization: policies
+# 4. CloudTrail: activity logging
+# 5. Security Hub: centralized security
+
+# MELHORIA:
+# ERRADO: Manual compliance
+# CORRECT: Automated compliance
+```
+
+---
+
+## ⚙️ Cloud DevOps (1.500)
+
+### Infrastructure as Code (200)
+
+#### CD001: Infrastructure as Code
+```python
+# SKILL: Infrastructure as Code
+# Nível: Intermediário → Expert
+# Contexto: Infraestrutura como código
+
+# FERRAMENTAS:
+# 1. Terraform: multi-cloud IaC
+# 2. CloudFormation: AWS native
+# 3. ARM Templates: Azure native
+# 4. Deployment Manager: GCP native
+# 5. Pulumi: programming languages
+
+# CONCEITOS:
+# 1. Declarative: desired state
+# 2. Imperative: step-by-step
+# 3. State Management: tracking changes
+# 4. Modules: reusable components
+# 5. Drift Detection: configuration changes
+
+# MELHORIA:
+# ERRADO: Manual infrastructure
+# CORRECT: IaC-first approach
+```
+
+### CI/CD on Cloud (200)
+
+#### CD002: CI/CD on Cloud
+```python
+# SKILL: CI/CD on Cloud
+# Nível: Intermediário → Expert
+# Contexto: CI/CD na nuvem
+
+# SERVIÇOS:
+# 1. AWS CodePipeline: pipelines
+# 2. Azure DevOps: Microsoft
+# 3. Cloud Build: Google
+# 4. GitHub Actions: GitHub
+# 5. Jenkins: self-hosted
+
+# CONCEITOS:
+# 1. Source: code repository
+# 2. Build: compilation, testing
+# 3. Test: quality verification
+# 4. Deploy: release automation
+# 5. Monitor: feedback loop
+
+# MELHORIA:
+# ERRADO: Manual deployments
+# CORRECT: Automated CI/CD pipelines
+```
+
+### Container Orchestration (150)
+
+#### CD003: Container Orchestration
+```python
+# SKILL: Container Orchestration
+# Nível: Intermediário → Expert
+# Contexto: Orquestração de containers
+
+# PLATAFORMAS:
+# 1. EKS: AWS Kubernetes
+# 2. AKS: Azure Kubernetes
+# 3. GKE: Google Kubernetes
+# 4. Docker Swarm: Docker native
+# 5. Nomad: HashiCorp
+
+# CONCEITOS:
+# 1. Pods: smallest deployable unit
+# 2. Services: network abstraction
+# 3. Deployments: replica management
+# 4. Ingress: external access
+# 5. Helm: package management
+
+# MELHORIA:
+# ERRADO: Manual container management
+# CORRECT: Orchestrated container platform
+```
+
+### Monitoring & Observability (100)
+
+#### CD004: Monitoring & Observability
+```python
+# SKILL: Monitoring & Observability
+# Nível: Intermediário → Expert
+# Contexto: Monitoramento e observabilidade
+
+# PILARES:
+# 1. Metrics: numerical data
+# 2. Logs: event records
+# 3. Traces: request flow
+# 4. Dashboards: visualization
+# 5. Alerts: notification
+
+# SERVIÇOS:
+# 1. CloudWatch: AWS monitoring
+# 2. Azure Monitor: Azure
+# 3. Cloud Monitoring: GCP
+# 4. Prometheus: open-source
+# 5. Grafana: visualization
+
+# MELHORIA:
+# ERRADO: Reactive monitoring
+# CORRECT: Proactive observability
+```
+
+---
+
+*Cloud Computing Expansion v1.0 — Setembro 2026*
